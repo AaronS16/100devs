@@ -42,25 +42,3 @@ table {
   border-spacing: 0;
 }
 
-h1{
-    text-align: center;
-    color: darkgreen;
-    font-size: 100px;
-    background-color: aquamarine;
-    border: 100pt;
-    border-style: groove;
-    border-color: blueviolet;
-}
-
-p{
-    color: white;
-    font-size: 50px;
-    background-color: black;
-    text-shadow: 1.5px 3px hotpink;
-    background-image: url("7986.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin: 0;
-    padding: 1500px 0 0;
-}
