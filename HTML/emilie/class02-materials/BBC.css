@@ -28,8 +28,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header{
+	background-color: black;
+}
 body {
 	line-height: 1; 
+
+}
+h1 {
+	font-size: 25px;
+	font-style: bold;
+}
+h2 {
+	font-size: 25px;
+	font-style: bold;
 }
 ol, ul {
 	list-style: none;
