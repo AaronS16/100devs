@@ -1,0 +1,25 @@
+nav ul li {
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+    background-color: gray;
+}
+section h1 {
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+footer h2 {
+    text-decoration: line-through;
+}
+section {
+    background-color: #8567e6;
+    height: 300px;
+    border: 5px solid gold;
+}
+footer {
+    background-color: #4a2b0e;
+    height: 300px;
+    width: 70%;
+}
