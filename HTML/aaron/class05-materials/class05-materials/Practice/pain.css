@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+
+    background: green;
+    height: 200px;
+    width: 100%;
+    border: 3px solid red;
+    
+}
+
+section {
+    height: 200px;
+    width: 33.3333%;
+    background: blue;
+    border: 3px solid black;
+    float: left;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background: yellow;
+    border: 5px solid purple;
+    clear: both;
+}
