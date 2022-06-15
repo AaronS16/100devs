@@ -1,0 +1,32 @@
+
+body{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+
+}
+body h2 {
+    font-weight: bold;
+    text-align: left;
+}
+.dog {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+.tea {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+body p {
+    text-align: left;
+}
+.pic {
+    width: 600px;
+    height: 650px;
+    float: right;
+}
