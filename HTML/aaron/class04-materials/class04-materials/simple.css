@@ -1,0 +1,56 @@
+html {
+    background: rgb(98, 203, 238);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    border: 5px solid green;
+    height: 1240px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    color: white;
+}
+
+.port {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 50px;
+    
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    
+}
+
+img {
+   
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin-right: 10%;
+    margin-left: 1%;
+    
+}
+
+footer > nav > a {
+    color: green;
+    clear: both;
+    text-align: center;
+}
