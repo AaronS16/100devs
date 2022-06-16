@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header, footer {
+    background: green;
+    border: 5px solid red;
+    height: 100px;
+    clear: both;
+}
+
+section {
+    background: blue;
+    border: 3px solid orange;
+    height: 200px;
+    width: 33.3333%;
+    float: left;
+    
+    
+}
+
+.row2 {
+    background: crimson;
+    height: 200px;
+    width: 50%;
+    border: 5px solid yellow;
+    float: right;
+}
