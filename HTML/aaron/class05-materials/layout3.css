@@ -32,9 +32,10 @@ header, footer {
     border: 3px solid gold;
     width: 20%;
     height: 600px;
-    float: right;
+    float: left;
     
 }
+
 
 .row4 {
     background: aqua;
@@ -43,3 +44,6 @@ header, footer {
     height: 600px;
     float: right;
 }
+
+
+
