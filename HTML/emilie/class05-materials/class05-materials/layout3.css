@@ -26,3 +26,18 @@ header, footer {
     width: 20%;
     float: left;
 }
+@media screen and (max-width: 600px){
+
+     section{
+        background-color: green;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    section{
+        background-color: blue;
+        width: 33.33333%;
+    }
+    .row1 {
+        display: none;
+    }
+}
