@@ -4,46 +4,42 @@
 
 
 header, footer {
-    background: green;
+    
     border: 5px solid red;
     height: 200px;
     clear: both;
 }
 
-.row1 {
-    background: blue;
+.row1, .row3, .row4 {
     border: 3px solid orange;
     height: 600px;
-    width: 22.5%;
+    width: 20%;
     float: left;
     
 }
 
+
 .row2 {
-    background: white;
-    border: 3px solid black;
+    border: 3px solid gold;
     width: 40%;
     height: 600px;
     float: left;
-}
-
-.row3 {
-    background: purple;
-    border: 3px solid gold;
-    width: 15%;
-    height: 600px;
-    float: left;
     
 }
 
-
-.row4 {
-    background: aqua;
-    border: 3px solid gold;
-    width: 22.5%;
-    height: 600px;
-    float: right;
+@media screen and (max-width: 600px) {
+    section{
+        background: green;
+    }
 }
 
-
-
+@media (min-width: 601px) and (max-width: 900px) {
+    section {
+        background: blue;
+        width: 33.3333%;
+    }
+    .row2 {
+        display: none;
+        
+    }
+}

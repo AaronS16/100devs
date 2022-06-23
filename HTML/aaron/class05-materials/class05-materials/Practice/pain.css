@@ -3,12 +3,13 @@
 }
 
 
-header {
+header, footer {
 
     background: green;
     height: 200px;
     width: 100%;
-    border: 3px solid red;
+    border: 3px solid blue;
+    clear: both;
     
 }
 
@@ -20,10 +21,23 @@ section {
     float: left;
 }
 
-footer {
-    height: 200px;
-    width: 100%;
-    background: yellow;
-    border: 5px solid purple;
-    clear: both;
+@media screen and (max-width: 600px) {
+    section {
+        background: red;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    section{
+        background: black;
+        border: 3px solid red;
+    }
+
+} 
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    header {
+        background: orange;
+        border: 3px red solid;
+    }
 }
