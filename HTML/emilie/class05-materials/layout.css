@@ -3,20 +3,40 @@
 }
 
 header, footer {
-    border: 1px solid black;
+    border: 3px solid black;
     height: 100px;
     clear: both;
 }
 
 section {
-    border: 1px solid black;
+    border: 2px solid black;
     float: left;
     width: 33.33%;
     height: 200px;
 }
-.lo {
-    border: 1px solid black;
-    float: right;
-    width: 50%;
-    height: 200px;
+@media screen and (max-width: 10000px){
+
+     section{
+        background-color: salmon;
+    }
 }
+@media (min-width: 601px) and (max-width: 900px) {
+    section{
+        background-color: cadetblue;
+        width: 33.33333%;
+    }
+    .row1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 10000px) {
+    header, footer{
+        background-color: aqua;
+    }
+
+}
+@media (min-width: 400px) and (max-width: 1000px) {
+    header, footer{
+        background-color: yellow;
+    }
+}    
