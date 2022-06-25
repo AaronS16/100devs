@@ -42,16 +42,14 @@ main {
   width: 40%;
   padding-right: 15%;
 }
-.latest {
-  clear: both;
-  margin-left: 10%;
-}
-.underline {
-  text-decoration: underline;
-}
 img {
   float: left;
   width: 80%;
+}
+.latest {
+  float: left;
+  width: 35%;
+  margin-left: 10%;
 }
 .sec2 p {
   margin-top: 20%;
