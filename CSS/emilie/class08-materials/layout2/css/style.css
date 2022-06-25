@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  list-style: none;
 }
 
 /* Clear fix hack */
@@ -40,9 +41,34 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-/***** dropdown button****/
-nav > *{
+ nav > *{
   float: left;
   width: 10%;
   margin: 0 5%;
+}
+.top li {
+  float: left;
+  width: 30%;
+}
+main {
+  float: left;
+  width: 50%;
+}
+.picv {
+  margin-left: 50%;
+  margin-top: 5%;
+  height: 500px;
+  width: 500px;
+}
+section {
+ float: left;
+ margin-top: 5%;
+}
+
+button{
+  color: white;
+  background-color: blue;
+}
+a {
+  color:blue;
 }
