@@ -50,6 +50,10 @@ img {
   float: left;
   margin-top: 5%;
   font-size: xx-large;
+  
+}
+.main p {
+  font-size: large;
 }
 
 /******************************************
