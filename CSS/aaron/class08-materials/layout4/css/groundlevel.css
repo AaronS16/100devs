@@ -28,12 +28,15 @@
   /* LAYOUT
   /*******************************************/
   
+.beginning {
+    height: 500px;
+}
 .top li{
     float: left;
     width: 3%;
     list-style: none;
 } 
- .logo {
+.logo {
     height: 40px;
     float: left;
  }
@@ -47,7 +50,7 @@
 }
 .big h1{
     clear: both;
-    margin-top: 1%;
+    margin-top: 5%;
     text-align: center;  
 }
 .big p {
@@ -58,6 +61,7 @@
     margin-top: 1%;
 }
 .white {
+    clear: both;
     text-align: center;
     height: 500px;
 }
@@ -67,7 +71,6 @@
 .lightgray section{
     float: left;
     width: 50%;
-    border: 3px solid black;
 }
 .lightgray img {
     display: inline-block;
@@ -84,6 +87,21 @@
     margin-left: 20%;
     margin-right: 5%;
 }
+.lightgray button {
+    margin-left: 45%;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+footer section{
+    float: left;
+    width: 50%
+}
+.address {
+    height: 248px;
+    text-align: center;
+}
+
+
   
   /******************************************
   /* ADDITIONAL STYLES
@@ -94,6 +112,10 @@ body {
 }
 .top a{
     color: white;
+    text-decoration: none;
+}
+button a {
+    color: black;
     text-decoration: none;
 }
 .pic button{
@@ -117,10 +139,32 @@ body {
 .white h1 {
     font-size: 40px;
 }
-.lightgray section h3{
+.lightgray section{
     background: lightgray;
+}
+.lightgray h3 {
     text-transform: uppercase;
 }
+.lightgray button {
+    background: lightgray;
+}
+.lightgray button a{
+    color: black;
+    text-decoration: none;
+}
+.white button {
+    background: white;
+    padding: 1%;
+}
 
-
-
+footer section {
+    background: rgb(0, 0, 48);
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer h6 {
+    color: grey;
+}
