@@ -21,22 +21,68 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
 
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+header li {
+  float: left;
+  list-style: none;
+  width: 8%;
+  color: white;
+  background-color: black;
+  padding: .5%;
+  
+}
+.top {
+  float: left;
+}
+.date {
+  float: right;
+  margin-right: 5%;
+  margin-top: 1%;
+  color: gray;
+  font-size: large;
+}
+.topstory {
+  clear: both;
+  float: left;
+  width: 40%;
+}
+.cover {
+  height: 450px;
+  width: 800px;
+}
+.sidestory section{
+  float: left;
+  width: 25%;
 }
 
-footer {
-
+.news {
+  clear: both;
+}
+.news section{
+  float: left;
+  width: 33.3333%;
+}
+.news img {
+  width: 500px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.bbc {
+  background: white;
+  color: black;
+  font-size: larger;
+}
+

@@ -37,6 +37,7 @@ nav > *{
 nav li {
   float: left;
   width: 33%;
+  color: blue;
 }
 main section {
   float: left;
@@ -55,7 +56,28 @@ img {
 .main p {
   font-size: large;
 }
+.links li {
+  float: left;
+  width: 25%;
+  font-size: medium;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.links li {
+  list-style: none;
+}
+button {
+  background-color: rgb(33, 105, 199); 
+  color: white;
+  padding: 10%;
+  border: none;
+}
