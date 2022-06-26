@@ -1,0 +1,126 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+.top li{
+    float: left;
+    width: 3%;
+    list-style: none;
+} 
+ .logo {
+    height: 40px;
+    float: left;
+ }
+.pic li {
+    
+    list-style: none;
+    margin-left: 48%;
+}
+.pic button{
+    margin-left: 88%;
+}
+.big h1{
+    clear: both;
+    margin-top: 1%;
+    text-align: center;  
+}
+.big p {
+    text-align: center;
+}
+.big img {
+    margin-left: 47%;
+    margin-top: 1%;
+}
+.white {
+    text-align: center;
+    height: 500px;
+}
+.white > h1 {
+    padding-top: 5%;
+}
+.lightgray section{
+    float: left;
+    width: 50%;
+    border: 3px solid black;
+}
+.lightgray img {
+    display: inline-block;
+    height: 400px;
+    width: 700px;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.lightgray h3{
+    text-align: center;
+}
+.lightgray p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+
+body {
+    background: rgb(131, 152, 175);
+}
+.top a{
+    color: white;
+    text-decoration: none;
+}
+.pic button{
+    background: white;
+    border: none;   
+}
+.pic a{
+    color: gray;
+    text-decoration: none;
+}
+.big h1 {
+    font-size: 40px;
+    text-transform: uppercase; 
+}
+.big {
+    color: white;
+}
+.white {
+    background: white;
+}
+.white h1 {
+    font-size: 40px;
+}
+.lightgray section h3{
+    background: lightgray;
+    text-transform: uppercase;
+}
+
+
+
