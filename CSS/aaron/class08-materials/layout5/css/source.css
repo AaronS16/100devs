@@ -21,20 +21,21 @@
   /* BASE STYLES
   /*******************************************/
   
-  
+  ul {
+    list-style: none;
+  }
   
   
   /******************************************
   /* LAYOUT
   /*******************************************/
-h3 {
+nav h3 {
     float: left;
-    width: 45%;
+    width: 40%;
 }
   
 header li {
     float: left;
-    list-style: none;
     width: 5%;
     margin-top: 1%;
 }
@@ -42,18 +43,48 @@ header button {
     margin-top: 1%;
     margin-left: 30%;
     width: 3%;
-    padding: .3%;
+    padding: 0.3%;
     background: rgb(1, 78, 102);
 }
-
-
+.tagline {
+    clear: both;
+    float: left;
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 50%;
+}
+section img {
+    float: left;
+    margin-top: 4%;
+    width: 1000px;
+}
+.features {
+    clear: both;
+}
+section > section {
+    float: left;
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+@media screen and (max-width: 1700px) {
+    nav li {
+        display: none;
+    }
+    nav button {
+        display: none;
+    }
+    nav h3 {
+        text-align: center;
+    }
+}
   
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
 
 body {
-    background: lightgray;
+    background: rgb(247, 252, 253);
 }
 
 a{
@@ -63,4 +94,15 @@ a{
 header button a{
     color: white;
     border: none;
+}
+section span {
+    color: rgb(68, 105, 105);
+}
+section h1 {
+    font-size: 40px;
+    color: rgb(0, 41, 75);
+}
+section button {
+    background: rgb(1, 78, 102);
+    color: white;
 }
