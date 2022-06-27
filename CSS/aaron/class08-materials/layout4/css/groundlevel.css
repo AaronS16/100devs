@@ -142,9 +142,6 @@ button a {
 .lightgray section{
     background: lightgray;
 }
-.lightgray h3 {
-    text-transform: uppercase;
-}
 .lightgray button {
     background: lightgray;
 }
