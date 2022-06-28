@@ -78,6 +78,29 @@ section > section {
         text-align: center;
     }
 }
+@media screen and (max-width: 600px) {
+    .pic {
+        display: block;
+        position: relative;
+        top: 500px;
+        right: 400px;
+        height: 200px;
+    }
+    .features {
+        position: relative;
+        top: 200px;
+    }
+    .tagline button {
+        position: relative;
+        top: 15px;
+        right: 1px;
+        width: 180px;       
+    }
+    .tagline p {
+        position: relative;
+        top: 10px;
+    }
+}
   
   /******************************************
   /* ADDITIONAL STYLES
