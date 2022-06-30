@@ -21,50 +21,22 @@
 /* BASE STYLES
 /*******************************************/
 
+body {
 
+}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+header {
 
-section, main, aside {
-  float: left;
-  width: 10%;
-}
-ul {
-  list-style: none;
-}
-main {
-  width: 50%;
-}
-.stories{
-  width: 40%;
-  padding-right: 15%;
-}
-img {
-  float: left;
-  width: 80%;
-}
-.latest {
-  float: left;
-  width: 35%;
-  margin-left: 10%;
-}
-.sec2 p {
-  margin-top: 20%;
-  margin-left: 50%;
-  width: 100%;
 }
 
+footer {
 
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-a {
-  color: black;
-}
-a:hover {
-  color: blue;
-}
