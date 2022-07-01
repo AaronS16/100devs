@@ -21,20 +21,23 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+main {
+  background-image: url(../pics/FRUIT-SALAD-3-500x375.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }
-
-footer {
-
+main img {
+  margin-left: 5%;
+}
+section {
+ 
+  
 }
 
 /******************************************
