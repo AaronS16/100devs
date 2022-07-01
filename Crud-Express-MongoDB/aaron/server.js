@@ -46,7 +46,7 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
             name: req.body.name,
             quote: req.body.quote
           }
-        },\
+        },
         {
           upsert: true
         }
