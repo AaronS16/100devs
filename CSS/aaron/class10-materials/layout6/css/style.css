@@ -27,7 +27,7 @@
 /* LAYOUT
 /*******************************************/
 header {
-  background-image: url(../pics/flat-lay-.jpg);
+  background-image: url(../pics/flat-lay.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -56,20 +56,72 @@ section form {
   margin-left: 10%;
 }
 .pie img {
-  min-height: 400px;
-  width: 50%;
+  float: left;
+  min-height: 300px;
+  width: 40%;
   margin-top: 10%;
-  padding: 0;
+}
+.middle {
+  float: left;
+  width: 60%;
 }
 .middle span {
-  float: left;
-  margin-right: 50%;
-  margin-top: 5%;
+  display: block;
+  margin-top: 20%;
+
 }
-.middle h1, p{
+.middle h1 { 
+  margin-left: -.01%;
+}
+.middle p {
   float: left;
-  width: 10%;
+  width: 60%;
+}
+.middle button {
+  clear: both;
+  display: block;
   margin-right: 10%;
+}
+.middle img {
+  max-height: 250px;
+  float: right;
+}
+.menu li {
+  float: left;
+  list-style: none;
+  width: 8%;
+  min-height: 60px;
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+.menu ul {
+  margin-left: 40%;
+}
+.items img{
+  float: left;
+  width: 15%;
+  max-height: 400px;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+.items {
+  min-height: 500px;
+}
+.opening span{
+  display: block;
+  text-align: center;
+}
+.opening h1 {
+  margin-left: 40%;
+}
+.hours {
+  float: left;
+  width: 50%;
+  margin-bottom: 5%;
+}
+.opening img {
+  margin-left: 40%;
+  margin-bottom: 5%;
 }
 
 /******************************************
@@ -80,6 +132,60 @@ a {
   color: green;
   text-decoration: none;
 }
+select {
+  color: white;
+  background: rgb(241, 117, 0);
+  min-height: 25px;
+  min-width: 80px;
+  border: none;
+  border-radius: 7%;
+}
 .middle h1{
-  font-size: 3em;
+  font-size: 3.5em;
  }
+ .middle span {
+  color: orange;
+  font-size: 1.5em;
+ }
+ button {
+  color: white;
+  background: rgb(241, 117, 0);
+  width: 10%;
+  min-height: 35px;
+  border: none;
+  border-radius: 7%;
+}
+.menu > h1 {
+  text-align: center;
+}
+.menu span {
+  display: block;
+  text-align: center;
+  color: rgb(241, 117, 0);
+  font-size: 1.5em;
+}
+.menu, .items {
+  clear: both;
+  background: rgb(237, 244, 247);
+}
+.items img:hover {
+  opacity: 0;
+  transition:opacity 3s;
+}
+.opening {
+  background-image: url(../pics/coffee.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.opening span {
+  color: rgb(241, 117, 0);
+
+}
+span.number {
+  color: black;
+  margin-bottom: .5%;
+}
+.hours span{
+  color: black;
+}
