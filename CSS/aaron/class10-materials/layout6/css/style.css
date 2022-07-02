@@ -27,7 +27,7 @@
 /* LAYOUT
 /*******************************************/
 header {
-  background-image: url(../pics/FRUIT-SALAD-3-500x375.jpg);
+  background-image: url(../pics/flat-lay-.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -55,14 +55,31 @@ section h1{
 section form {
   margin-left: 10%;
 }
-.middle h1{
- font-size: 3em;
+.pie img {
+  min-height: 400px;
+  width: 50%;
+  margin-top: 10%;
+  padding: 0;
 }
+.middle span {
+  float: left;
+  margin-right: 50%;
+  margin-top: 5%;
+}
+.middle h1, p{
+  float: left;
+  width: 10%;
+  margin-right: 10%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 a {
-  color: rgb(0, 0, 0);
+  color: green;
   text-decoration: none;
 }
+.middle h1{
+  font-size: 3em;
+ }
