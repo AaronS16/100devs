@@ -26,20 +26,43 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-main {
+header {
   background-image: url(../pics/FRUIT-SALAD-3-500x375.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
+  min-height: 700px;
 }
-main img {
+header img {
   margin-left: 5%;
+  float: left;
+  width: 10%;
 }
-section {
- 
-  
+nav ul {
+  float: right;
+  width: 55%;
 }
-
+nav li{
+  float: left;
+  list-style: none;
+  padding: 20px;  
+}
+section h1{
+  clear: both;
+  margin-left: 10%;
+  font-size: 5em;
+}
+section form {
+  margin-left: 10%;
+}
+.middle h1{
+ font-size: 3em;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
