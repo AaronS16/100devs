@@ -23,7 +23,7 @@
 /*******************************************/
 
 body {
-
+  background-color: whitesmoke;
 }
 
 
@@ -55,7 +55,6 @@ footer {
 /*******************************************/
 main {
   background-image: url("flat-lay-.jpg");
-  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -73,8 +72,72 @@ section h1{
   clear: both;
 }
 .whitefirstlayer {
-  clear: both;
-  background-image: url("istockphoto-1.jpg");
   background-color: white;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  z-index: auto;
+  text-align: center;
+  height: 200px;
+  margin-left: 40%;
+}
+
+ .whitefirstlayer span {
+    color: orange;
+    font-size: 20px;
+ }
+ select {
+  background-color: rgb(255, 153, 0);
+  color: white;
+  border: 1px solid rgb(255, 153, 0);
+  border-radius: 7%;
+ }
+ .ordernow li {
+  float: left;
+  width: 20%;
+ }
+ .ordernow section {
+  float: left;
+  
+ }
+ .ordernow {
+  background-color: whitesmoke;
+  background-position: center;
+  text-align: center;
+  background-size: cover;
+  margin: 20%;
+  margin-left: 40%;
+ }
+ .ordernow span {
+  color: orange;
+  font-size: 20px;
+ }
+ .ordernow *{
+  background-color: whitesmoke;
+ 
+ }
+img:hover {
+  opacity: 0;
+  transition: opacity 4s;
+}
+.bottom {
+  text-align: center;
+  margin: 20%;
+  margin-left: 40%;
+  clear: both;
+  background-image: white;
+}
+.bottom h4 {
+  float: left;
+  width: 50%;
+}
+.span1, span {
+  color: orange;
+  font-size: 20px;
+}
+.bottom img {
+  margin: 20%;
+  margin-left: 40%;
+  width: 100px;
+  height: 100px;
 }
