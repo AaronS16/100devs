@@ -21,22 +21,67 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+li {
+  list-style: none;
 }
-
+html {
+  text-transform: uppercase;
+  color: white;
+}
+a {
+  color: black;
+text-decoration: none;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header img {
+  float: left;
+  max-height: 100px;
+  margin-left: 5%;
 }
-
-footer {
-
+header li:first-child {
+  margin-top: 1%;
+  float: left;
+  margin-left: 25%; 
+}
+header li {
+  float: left;
+  margin-top: 1%;
+  width: 5%;
+}
+header li:last-child {
+  float: right;
+  margin-right: 5%;
+}
+section .front{
+  clear: both;
+}
+.front h1, p, form {
+  margin-left: 10%;
+}
+.front h1 { 
+  padding-top: 8%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.front {
+  background-image: url(../pics/hair.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+}
+.front h1{
+  font-size: 4em;
+}
+.firsttime {
+  background-color: black;
+}
+.discount {
+  font-size: 2em;
+}
