@@ -139,6 +139,8 @@ section .front{
   padding-top: 5%;
 }
 .looks h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
 }
 .looks section img{
