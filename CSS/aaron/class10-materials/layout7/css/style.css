@@ -64,6 +64,9 @@ section .front{
 .front h1 { 
   padding-top: 8%;
 }
+.description {
+  clear: both;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -84,4 +87,11 @@ section .front{
 }
 .discount {
   font-size: 2em;
+}
+.description {
+  text-transform: capitalize;
+}
+.front select {
+  background: black;
+  color: white;
 }
