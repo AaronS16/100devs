@@ -26,11 +26,10 @@ li {
 }
 html {
   text-transform: uppercase;
-  color: white;
 }
 a {
   color: black;
-text-decoration: none;
+  text-decoration: none;
 }
 
 /******************************************
@@ -58,14 +57,110 @@ header li:last-child {
 section .front{
   clear: both;
 }
-.front h1, p, form {
+.front h1, p, form, .firsttime, h2 {
   margin-left: 10%;
 }
 .front h1 { 
   padding-top: 8%;
 }
-.description {
+.firsttime {
+  margin-top: 2%;
+}
+.firsttime button {
+  margin-left: 8%;
+}
+.description section{
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.description section:first-child {
+  margin-left: 18%;
+}
+.description p{
+  margin-left: -10%;
+  margin-right: 10%;
+}
+.grey {
   clear: both;
+}
+.grey section {
+  float: left;
+  width: 50%;
+  background: lightgrey;
+  min-height: 400px;
+}
+.grey h2 {
+  padding-top: 3%;
+}
+.grey h2, p {
+  margin-left: 20%;
+}
+.grey button {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.grey img {
+  max-height: 300px;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.stylist section:first-child {
+  margin-left: 15%;
+  width: 20%;
+}
+.stylist section {
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.stylist section img {
+  max-height: 300px;
+  min-height: 300px;
+}
+.stylist span {
+  display: block;
+  text-align: center;
+  width: 150%;
+}
+.color {
+  clear: both;
+}
+.color h4, h3 {
+  margin-left: 10%;
+}
+.color button {
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.color h4 {
+  padding-top: 5%;
+}
+.looks h1{
+  text-align: center;
+}
+.looks section img{
+  float: left;
+  width: 30%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+.smallpic img{
+ max-width: 600px;
+}
+.largepic img{
+  max-width: 400px;
+  min-height: 500px;
+}
+.blank {
+  clear: both;
+}
+.looksbot section img{
+  float: left;
+  width: 33.3333%;
+  margin-left: 8%;
 }
 
 /******************************************
@@ -78,6 +173,7 @@ section .front{
   background-position: center;
   background-size: cover;
   min-height: 800px;
+  color: white;
 }
 .front h1{
   font-size: 4em;
@@ -86,7 +182,8 @@ section .front{
   background-color: black;
 }
 .discount {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-weight: bold
 }
 .description {
   text-transform: capitalize;
@@ -94,4 +191,32 @@ section .front{
 .front select {
   background: black;
   color: white;
+}
+.firsttime {
+  width: 8%;
+  min-height: 180px;
+}
+.grey button, a {
+  background: black;
+  color: white;
+  font-size: smaller;
+  width: 8%;
+  min-height: 40px;
+}
+.firsttime button a {
+  color: black;
+}
+.color {
+  background: lightgrey;
+  background-image: url(../pics/slide1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.color button, a {
+  background: black;
+  color: white;
+  font-size: smaller;
+  width: 5%;
+  min-height: 40px;
 }
