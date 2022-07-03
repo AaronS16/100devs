@@ -56,6 +56,10 @@ main {
   clear: both;
   background-image: url(istockphoto-952087324-612x612.jpg);
   color: white;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
 }
 main h1 , h5 , button {
   margin-left: 5%;
@@ -71,6 +75,7 @@ main section {
   margin-left: 5%;
   margin-top: 5%;
 }
+
 
 footer {
 
@@ -94,3 +99,89 @@ button {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.threeareas section{
+  float: left;
+  width: 20%;
+  margin-top: 5%;
+  max-height: 400px;
+}
+.threeareas section:first-child {
+  margin-left: 25%;
+}
+.bottomtop{
+  clear: both;
+  max-height: 700px;
+}
+.bottomtop section{
+  float: left;
+  margin-top: 10%;
+  width: 50%;
+  min-height: 400px;
+  background-color: gray;
+}
+.bottomtop h1 {
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.bottomtop h1 + p {
+  margin-left: 20%;
+}
+.bottomtop button {
+  margin-left: 20%;
+}
+.bottomtop img {
+  max-height: 300px;
+}
+.threepics section:first-child {
+  margin-left: 15%;
+  width: 20%;
+}
+.threepics section {
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.threepics section img {
+  max-height: 500px;
+  max-width: 500px;
+}
+.threepics span {
+  display: block;
+}
+.firsttolast {
+  clear: both;
+  background-image: url("hairsalonhairstylists-touchups_az.jpg");
+  min-height: 500px;
+  background-size: cover;
+}
+.firsttolast h2, h1 {
+  margin-left: 10%;
+}
+.firsttolast h2 {
+  padding-top: 10%;
+}
+.firsttolast button {
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.last section img {
+  float: left;
+  width: 30%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+.smallpic img {
+  max-width: 600px;
+}
+.largepic img {
+  max-width: 400px;
+  min-height: 500px;
+}
+.black {
+  clear: both;
+}
+.looksbottom img {
+  float: left;
+  width: 33.33%;
+  margin-left: 8%;
+}
