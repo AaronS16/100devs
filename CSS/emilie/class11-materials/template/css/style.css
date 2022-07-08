@@ -40,3 +40,6 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+article h2 {
+  background-color: aquamarine;
+}
