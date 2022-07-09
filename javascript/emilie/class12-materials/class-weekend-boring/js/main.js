@@ -1,10 +1,12 @@
 document.querySelector('#check').addEventListener('click', check)
 
+
 function check() {
 
   const day = document.querySelector('#day').value
 
   //Conditionals go here
-k
-
+if ('sunday') {
+  console.log ('Weekend')
+}
 }
