@@ -2,8 +2,9 @@ let total = 0
 
 document.querySelector('#pumpkin').addEventListener('click', makeZero)
 document.querySelector('#dominosPizza').addEventListener('click', jumanji)
-document.querySelector('#zebra').addEventListener('click', add9)
-document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+document.querySelector('#zebra').addEventListener('click', add5)
+document.querySelector('#cantThinkOfAnything').addEventListener('click', add10)
+document.querySelector('#apple').addEventListener('click', sub2)
 
 function makeZero() {
   total = 0
@@ -11,12 +12,15 @@ function makeZero() {
 }
 
 function jumanji() {
-  total = total + 3
+  total = total + 1
   document.querySelector('#placeToPutResult').innerText = total
 }
-
-function add9() {
-  total = total + 9
+function add5() {
+  total = total + 5
+  document.querySelector('#placeToPutResult').innerText = total
+}
+function add10() {
+  total = total + 10
   document.querySelector('#placeToPutResult').innerHTML = total
 }
 

@@ -12,6 +12,7 @@
 /*******************************************/
 h1, h2{
   text-align: center;
+  margin-top: 50px;
 }
 img{
   display: block;
@@ -20,7 +21,7 @@ img{
 }
 ul{
   width: 100px;
-  height: 200px;
+  height: 250px;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
@@ -32,7 +33,11 @@ li{
   height: 49px;
   border: 1px solid black;
 }
-
+body {
+  background-color: lavenderblush;
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: 15px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
