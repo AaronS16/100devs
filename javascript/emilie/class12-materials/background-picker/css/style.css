@@ -20,7 +20,7 @@ img{
 }
 ul{
   width: 100px;
-  height: 200px;
+  height: 331px;
   border: 3px solid black;
   margin: 0 auto;
   list-style: none;
@@ -35,11 +35,17 @@ li{
 /* ADDITIONAL STYLES
 /*******************************************/
 #purple{
-  background: rgba(241,63,247,1);
+  background: rgb(41, 1, 43);
 }
 #green{
-  background: rgba(0,253,81,1);
+  background: rgb(11, 73, 31);
 }
 #blue{
-  background: rgba(0,254,255);
+  background: rgb(38, 84, 201);
+}
+#yellow {
+  background-color: rgb(241, 241, 151);
+}
+#red {
+  background-color: rgb(177, 82, 82);
 }
