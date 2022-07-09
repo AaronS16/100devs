@@ -16,6 +16,8 @@ h1, h2, form{
 button{
   display: block;
   margin: 20px auto;
+  color: lightcoral;
+  background-color: black;
 }
 ul{
   width: 100px;
@@ -33,9 +35,18 @@ li{
 }
 h2{
   font-size: 100px;
-  color: red;
+  color: rgb(217, 255, 0);
   font-weight: bold;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+body {
+  margin-top: 30%;
+  margin-right: 5%;
+  background-image: url(Colors-of-the-Week-1-1024x688.webp);
+  background-repeat: repeat-x;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
