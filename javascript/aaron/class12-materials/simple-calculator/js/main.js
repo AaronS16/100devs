@@ -4,6 +4,10 @@ document.querySelector('#pumpkin').addEventListener('click', makeZero)
 document.querySelector('#dominosPizza').addEventListener('click', jumanji)
 document.querySelector('#zebra').addEventListener('click', add9)
 document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
+document.querySelector('.wings').addEventListener('click', add5)
+document.querySelector('.burgers').addEventListener('click', sub6)
+document.querySelector('.ice').addEventListener('click', sub15)
+document.querySelector('.jomboy').addEventListener('click', add8)
 
 function makeZero() {
   total = 0
@@ -24,4 +28,19 @@ function sub2() {
   total = total - 2
   document.querySelector('#placeToPutResult').innerHTML = total
 }
-function test ()
+function add5 () {
+  total = total + 5
+  document.querySelector('#placeToPutResult').innerHTML = total
+}
+function sub6 () {
+  total = total - 6
+  document.querySelector('#placeToPutResult').innerHTML = total
+}
+function sub15 () {
+  total = total - 15
+  document.querySelector('#placeToPutResult').innerHTML = total
+}
+function add8 () {
+  total = total + 8
+  document.querySelector('#placeToPutResult').innerHTML = total
+}
