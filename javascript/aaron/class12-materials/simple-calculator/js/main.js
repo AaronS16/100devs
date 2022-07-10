@@ -1,4 +1,4 @@
-total = 0
+let total = 0
 
 document.querySelector('#pumpkin').addEventListener('click', clearAll)
 document.querySelector('#dominosPizza').addEventListener('click', add3)
