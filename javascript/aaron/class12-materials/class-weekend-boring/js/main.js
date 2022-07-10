@@ -1,19 +1,17 @@
 document.querySelector('#check').addEventListener('click', check)
 
-function check() {
+function check () {
+    const day = document.querySelector('#day').value
 
-  const day = document.querySelector('#day').value
-  //Conditionals go here
-
-
-  if (day.toLowerCase() === "saturday" || day.toLowerCase() === "sunday") {
-    document.querySelector('#placeToSee').innerHTML = "Weekend!"
+if (day.toLowerCase() === 'saturday' || day.toLowerCase() === 'sunday') {
+    document.querySelector('#placeToSee').innerHTML = 'Weekend Yay!'
     }
-    else if (day.toLowerCase() === "monday" || day.toLowerCase() === "wednesday" || day.toLowerCase() === "Friday") {
-    document.querySelector('#placeToSee').innerHTML = "BORING!"
+    else if (day.toLowerCase() === 'monday' || day.toLowerCase() === 'wednesday' || day.toLowerCase() === 'friday') {
+    document.querySelector('#placeToSee').innerHTML = 'Boring Day'
     }
-    else {(day.toLowerCase() === "tuesday" || day.toLowerCase() === "thursday")
-    document.querySelector('#placeToSee').innerHTML = "Class day"
+    else if (day.toLowerCase() === 'tuesday' || day.toLowerCase() === 'thursday') {
+    document.querySelector('#placeToSee').innerHTML = 'Class Day'
+    }
+    else {alert("Please enter in a day")
     }
 }
-    
