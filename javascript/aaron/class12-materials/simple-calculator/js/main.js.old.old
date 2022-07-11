@@ -1,6 +1,6 @@
 let total = 0
 
-document.querySelector('#pumpkin').addEventListener('click', zeroOut)
+document.querySelector('#pumpkin').addEventListener('click', clearAll)
 document.querySelector('#dominosPizza').addEventListener('click', add3)
 document.querySelector('#zebra').addEventListener('click', add9)
 document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
@@ -9,7 +9,8 @@ document.querySelector('.burgers').addEventListener('click', sub6)
 document.querySelector('.ice').addEventListener('click', sub15)
 document.querySelector('.jomboy').addEventListener('click', add8)
 
-function zeroOut () {
+
+function clearAll () {
     total = 0
     document.querySelector('#placeToPutResult').innerText = total
 }
