@@ -12,4 +12,5 @@ if (day.toLowerCase() === 'sunday' || day.toLowerCase() === 'saturday'){
     else if (day.toLowerCase() === 'tuesday' || day.toLowerCase() === 'thursday') {
         document.querySelector('#placeToSee').innerText = 'Learning Today'
     }
+    else (alert("Please enter in a day"))
 }
