@@ -30,7 +30,7 @@ function add5 () {
     document.querySelector('#placeToPutResult').innerText = total
 }
 function sub6 () {
-    total = to
+    total = total - 6
     document.querySelector('#placeToPutResult').innerText = total
 }
 function sub15 () {
