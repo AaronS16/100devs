@@ -1,16 +1,17 @@
-document.querySelector('#check').addEventListener('click', check)
+document.querySelector('#check').addEventListener('click', dayCheck)
 
-function check () {
-    const day = document.querySelector('#day').value
+function dayCheck () {
 
-if (day.toLowerCase() === 'sunday' || day.toLowerCase() === 'saturday'){
-    document.querySelector('#placeToSee').innerText = "Weekend YAY!!!"
+    const day = document.querySelector('#day').value.toLowerCase()
+
+if (day === 'monday' || day === 'wednesday' || day === 'friday'){
+    document.querySelector('#placeToSee').innerText = "Boring Day"
     }
-    else if (day.toLowerCase() === 'monday' || day.toLowerCase() === 'wednesday' || day.toLowerCase() === 'friday'){
-        document.querySelector('#placeToSee').innerText = 'Boring Days...'
+    else if (day === 'saturday' || day === 'sunday') {
+        document.querySelector('#placeToSee').innerText = "Weekend YAY!!!"
     }
-    else if (day.toLowerCase() === 'tuesday' || day.toLowerCase() === 'thursday') {
-        document.querySelector('#placeToSee').innerText = 'Learning Today'
+    else if (day === 'tuesday' || day === 'thursday') {
+        document.querySelector('#placeToSee').innerText = "Class Day"
     }
-    else (alert("Please enter in a day"))
+    else alert('Please enter in a day of the week')
 }
