@@ -1,6 +1,6 @@
-document.querySelector('#finalRose').addEventListener('click', hide)
+document.querySelector('#finalRose').addEventListener('click', winner)
 
-function hide(){
-	document.querySelector('#claire').style.display = 'none'
-	document.querySelector('#sharleen').style.display = 'none'
+function winner () {
+    document.querySelector('#claire').style.display = 'none'
+    document.querySelector('#sharleen').style.display = 'none'
 }
