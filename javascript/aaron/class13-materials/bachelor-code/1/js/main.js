@@ -1,6 +1,6 @@
-document.querySelector('#finalRose').addEventListener('click', hide/*INSERTCODE*/)
+document.querySelector('#finalRose').addEventListener('click', hide)
 
 function hide(){
-	document.querySelector('#claire'/*INSERTCODE*/).style.display = 'none'
-	document.querySelector('#sharleen'/*INSERTCODE*/).style.display = 'none'
+	document.querySelector('#claire').style.display = 'none'
+	document.querySelector('#sharleen').style.display = 'none'
 }
