@@ -13,13 +13,13 @@ function andiNext(){
 }
 
 function claireNext(){
-	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
-	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
-	/*INSERTCODE*/.classList.toggle(/*INSERTCODE*/)
+	andi.classList.add('hidden')
+	sharleen.classList.add('hidden')
+	claire.classList.toggle('hidden')
 }
 
 function sharleenNext(){
-	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
-	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
-	/*INSERTCODE*/.classList.toggle(/*INSERTCODE*/)
+	andi.classList.add('hidden')
+	claire.classList.add('hidden')
+	sharleen.classList.toggle('hidden')
 }
