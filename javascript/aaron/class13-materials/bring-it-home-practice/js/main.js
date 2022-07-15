@@ -1,5 +1,3 @@
-document.querySelector('body').style.backgroundColor = 'black'
-
 // *Variables*
 // Create a variable and console log the value
 
@@ -56,4 +54,4 @@ function zebra (num1, num2, num3) {
     else alert('Not divisible by 3')
 }
 
-zebra(8, 2, 4)
+zebra(6, 9, 3)
