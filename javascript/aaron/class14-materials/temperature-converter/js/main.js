@@ -5,6 +5,13 @@
 
 //create a button to click once you enter in the temperature
 
+document.querySelector('.click').addEventListener('click', convert)
+
+function convert () {
+    const celcius = document.querySelector('.celcius').value
+    temp = celcius * 1.8 + 32
+    document.querySelector('.placeToSee').innerText = temp
+}
 
 //have an empty h2 to place answer later
 
