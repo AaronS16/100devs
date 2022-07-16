@@ -10,8 +10,22 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+body {
+  text-align: center;
+  margin: 35%;
+  background-image: url(iStock-1226639190.jpg);
+  background-repeat: repeat-x;
+  background-color: rgb(92, 131, 182);
+  font-size: 20px;
+}
+button {
+  margin: 1%;
+}
 
-
+h2 {
+  font-size: 5em;
+  color: yellow;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
