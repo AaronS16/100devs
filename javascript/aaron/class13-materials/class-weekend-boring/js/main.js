@@ -1,17 +1,19 @@
 //Handle Capital Letters, Place result in DOM, add a check for humpday (Wed)
 
-document.querySelector('#check').addEventListener('click', check)
+document.querySelector('#check').addEventListener('click', dayOfWeek)
 
-function check() {
+function dayOfWeek () {
 
-  const day = document.querySelector('#day').value
+  const day = document.querySelector('#day').value.toLowerCase()
 
-  if(day === "tuesday" || day === "thursday"){
-    console.log("YOU HAVE CLASS")
-  }else if( day === "saturday" || day === "sunday"){
-    console.log("Its The Weekend")
-  }else{
-    console.log("BORING")
+  if (day === 'monday' || day === 'wednesday' || day === 'friday') {
+    document.querySelector('#placeToSee').innerText = "Boring day"
   }
-
+  else if (day === 'tuesday' || day === 'thursday') {
+    document.querySelector('#placeToSee').innerText = 'Class Day'
+  }
+  else if (day === 'saturday' || day === 'sunday') {
+    document.querySelector('#placeToSee').innerText = "Weekend Yay!!!"
+  }
+  else alert('Please enter in a day')
 }
