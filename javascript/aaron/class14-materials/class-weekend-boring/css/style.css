@@ -39,3 +39,8 @@ h2{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body {
+  background-image: url(../img/cal.jpg);
+  background-size: cover;
+}
