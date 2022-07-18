@@ -4,6 +4,7 @@
 section h1{
 	display: flex;
 	justify-content: center;
+	align-content: center;
 }
 section h2 {
 	display: flex;
