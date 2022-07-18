@@ -51,6 +51,6 @@ function emilie () {
     document.querySelector('.emiliePic').style.display = 'none'
     document.querySelector('.oliviaPic').style.display = 'none'
     document.querySelector('.goAway').style.display = 'none' 
-    document.body.style.backgroundImage = "url('./img/20200528_074657.jpg')";
-    document.body.style.backgroundSize = "1200px";
+    document.body.style.backgroundImage = "url('./img/IMG_1128.jpg')";
+    document.body.style.backgroundSize = "800px";
 }
