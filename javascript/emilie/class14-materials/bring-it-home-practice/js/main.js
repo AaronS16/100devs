@@ -22,6 +22,11 @@ console.log(dividesTwoNumbers (20,2))
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
+function addingTwoNumbers(num1, num2){
+    const sum = num1 + num2
+    if (){
 
+    }
+}
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
