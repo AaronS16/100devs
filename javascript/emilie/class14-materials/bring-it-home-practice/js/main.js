@@ -19,6 +19,7 @@ function dividesTwoNumbers(numb1,num2){
     return numb1 / num2
 }
 console.log(dividesTwoNumbers (20,2))
+
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
 
