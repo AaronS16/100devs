@@ -35,9 +35,10 @@ addingTwoNumbers (40,10)
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 function multiplyThreeNumbers(num1,num2,num3){
     const product = num1 * num2 * num3 
-    if(product / 3 ){
+    const remainder = product % 3
+    if(remainder === 0 ){
         alert("ZEBRA")
     }
     else alert("oh Hey!")
 }
-multiplyThreeNumbers (5,5,5)
+multiplyThreeNumbers (9,9,9)
