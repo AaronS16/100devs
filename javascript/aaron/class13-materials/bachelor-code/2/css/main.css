@@ -1,3 +1,15 @@
 .hidden{
 	display: none;
 }
+h1{
+	display: flex;
+	justify-content: center;
+}
+h2 {
+	display: flex;
+	justify-content: center;
+}
+.pics {
+	display: flex;
+	justify-content: center;
+}
