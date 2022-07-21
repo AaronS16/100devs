@@ -13,8 +13,13 @@
 h1, h2{
   text-align: center;
 }
+.container-1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  
+}
 img{
-  display: block;
   height: 300px;
   margin: 0 auto;
 }
@@ -34,15 +39,3 @@ li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(155, 3, 160);
-}
-#green{
-  background: rgba(1, 102, 33);
-}
-#blue{
-  background: rgba(12, 0, 182);
-}
-#red {
-  background: rgba(255,0,0);
-}
