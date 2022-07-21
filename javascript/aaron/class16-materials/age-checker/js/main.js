@@ -1,9 +1,34 @@
 //Create a conditonal that checks their age
+
+let input = document.querySelector('#danceDanceRevolution').addEventListener('click', checkAge)
+
+function checkAge () {
+    if (input <= '16') {
+        alert('You can not drive')
+    }
+    else if (input <= '17') {
+        alert("You can't hate from outside the club, you can't even get in")
+    }
+    else if (input <= '20') {
+        
+    }
+}
+
 //If under 16, tell them they can not drive
+
+
 //If under 18, tell them they can't hate from outside the club, because they can't even get in
+
+
 //If under 21, tell them they can not drink
+
+
 //If under 25, tell them they can not rent cars affordably
+
+
 //If under 30, tell them they can not rent fancy cars affordably
+
+
 //If under over 30, tell them there is nothing left to look forward too
 
 
