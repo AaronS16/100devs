@@ -1,7 +1,7 @@
 // *Variables*
 // Create a variable and console log the value
 let bringItOn = 5
-console.log(5)
+console.log(bringItOn)
 // Create a variable, add 10 to it, and alert the value
 let hello = 8 
 let whatUp=hello + 10 
@@ -43,8 +43,6 @@ function multiplyByThree (num1,num2,num3){
 multiplyByThree (9 , 9 ,9 )
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
-function wordLoop (num1, "hello"){
-    let create = num1 + " hello"
-    console.log (create)
+function wordLoop(){
+
 }
-wordLoop(5, "hello")
