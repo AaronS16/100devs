@@ -29,6 +29,3 @@
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
 
-console.log(4 + 5);
-console.log("4 + 5");
-console.log("4" + "5");
