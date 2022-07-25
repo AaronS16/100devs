@@ -21,6 +21,38 @@ alert(add10);
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
 
-const name = prompt("Enter your name: ");
-const name2 = prompt("Enter your last name: ")
-alert(`Hello, ${name +  name2}`);
+const firstName = prompt("Enter your name: ");
+const lastName = prompt("Enter your last name: ")
+alert(`Hello, ${firstName +  lastName}`);
+
+
+const input = prompt("Enter a number:"); // input's type is string
+const nb = Number(input); // nb's type is number
+console.log(nb)
+
+let a = 2;
+a -= 1;
+a++;
+let b = 8;
+b += 2;
+const c = a + b * b;
+const d = a * b + b;
+const e = a * (b + b);
+const f = a * b / a;
+const g = b / a * a;
+console.log(a, b, c, d, e, f, g);
+
+const inputPrice = Number(prompt("Enter the raw price: "))
+const pP = inputPrice * 0.206
+alert(inputPrice + pP )
+
+
+let n1 = 5
+let n2 = 3 
+
+let n3 = n1 
+let n4 = n2 
+
+n2 = n3 
+n1 = n4 
+console.log(n1 , n2 )
