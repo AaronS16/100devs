@@ -31,13 +31,12 @@ function square1(x) {
   console.log(square2(2)); 
   console.log(square2(5));
 
-  // Minimum of Two Numbers
+ 
+// Triangle
 
-function min () {
-    
+function test (num) {
+  for (let i = 0; i <=7; i++) {
+  }
 }
+test('#')
 
-
-console.log(min(4.5, 5));
-console.log(min(19, 9)); 
-console.log(min(1, 1));
