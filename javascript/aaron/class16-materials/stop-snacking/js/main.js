@@ -6,6 +6,6 @@ function stopSnack () {
     let stop = Number(document.querySelector('input').value)
     document.querySelector('#stops').innerText = ''
     for (i = 1; i <= stop; i++){
-    document.querySelector('#stops').innerText += ' Stop snacking'
+    document.querySelector('#stops').innerText += ' Stop snacking '
     }
 }
