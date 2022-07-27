@@ -63,5 +63,7 @@ function sayHello(firstName, lastName) {
     return message;
   }
 
-sayHello(emilie, flores)
-console.log(sayHello1)
+sayHello("emilie", "flores");
+console.log(sayHello);
+
+function square1 (x){}
