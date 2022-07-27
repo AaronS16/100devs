@@ -42,18 +42,28 @@ const f = a * b / a;
 const g = b / a * a;
 console.log(a, b, c, d, e, f, g);
 
-const inputPrice = Number(prompt("Enter the raw price: "))
-const pP = inputPrice * 0.206
-alert(inputPrice + pP )
+const inputPrice = Number(prompt("Enter the raw price: "));
+const pP = inputPrice * 0.206;
+alert(inputPrice + pP );
 
 
-let n1 = 5
-let n2 = 3 
+let n1 = 5;
+let n2 = 3;
 
-let n3 = n1 
-let n4 = n2 
+let n3 = n1;
+let n4 = n2; 
 
-n2 = n3 
-n1 = n4 
-console.log(n1 , n2 )
-d
+n2 = n3; 
+n1 = n4 ;
+console.log(n1 , n2 );
+
+
+function sayHello(firstName, lastName) {
+    const message = `Hello, ${firstName} ${lastName}!`;
+    return message;
+  }
+
+sayHello("emilie", "flores");
+console.log(sayHello);
+
+function square1 (x){}
