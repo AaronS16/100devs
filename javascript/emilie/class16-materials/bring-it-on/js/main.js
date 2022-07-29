@@ -63,7 +63,7 @@ function sayHello(firstName, lastName) {
     return message;
   }
 
-sayHello("emilie", "flores");
+sayHello("emilie", "flo");
 console.log(sayHello);
 let z = 2 
 function square1 (z){
@@ -71,5 +71,3 @@ function square1 (z){
 }
 
 
-
-function aaronButtSmellLikeBananas()
