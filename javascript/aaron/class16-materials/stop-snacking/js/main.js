@@ -9,5 +9,3 @@ function stopSnack () {
     document.querySelector('#stops').innerText += ' Stop snacking '
     }
 }
-
-test
