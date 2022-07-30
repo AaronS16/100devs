@@ -57,13 +57,17 @@ n2 = n3;
 n1 = n4 ;
 console.log(n1 , n2 );
 
-
+// Writing functions// 
 function sayHello(firstName, lastName) {
     const message = `Hello, ${firstName} ${lastName}!`;
     return message;
   }
 
-sayHello("emilie", "flores");
+sayHello("emilie", "flo");
 console.log(sayHello);
+let z = 2 
+function square1 (z){
 
-function square1 (x){}
+}
+
+
