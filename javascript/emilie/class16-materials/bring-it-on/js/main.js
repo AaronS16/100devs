@@ -69,7 +69,3 @@ let z = 2
 function square1 (z){
 
 }
-
-/* Aarons has a smelly butt */ 
-
-case: 
