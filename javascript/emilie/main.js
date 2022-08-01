@@ -4,3 +4,4 @@ const plantNeedsWater = fuction(day){
     return false
     }
 console.log(plantNeedsWater('Tuesday'));
+console.log(typeof plantNeedsWater);
