@@ -14,3 +14,17 @@
 //   }
 //   even_or_odd(2)
 
+const musketeers = ["Athos", "Porthos", "Aramis"]
+
+for (i=0; i < musketeers.length; i++) {
+    console.log(musketeers[i])
+}
+musketeers.push("D'Artagnan")
+console.log(musketeers)
+
+musketeers.forEach(musketeer => {
+    console.log(musketeer);
+});
+
+musketeers.pop();
+console.log(musketeers[2]);
