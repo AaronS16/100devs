@@ -13,4 +13,7 @@ numbers.forEach((item, i) => {
 
 //Find the average of all the numbers from question two
 let sum = 0 
-numbers.forEach((num) => sum += num) 
+for (let i = 0; i < numbers.length; i++){
+    sum = sum + numbers[i]
+}
+console.log(sum / numbers.length)
