@@ -23,3 +23,16 @@ for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i]
 }
 console.log(sum / numbers.length)
+
+
+
+
+
+function countBy(x, n) {
+    let z = [];
+    for (let i = 1; i <= n; i++) {
+      z.push(x * i);
+    }
+    return z;
+  }
+  console.log(countBy(2,8))
