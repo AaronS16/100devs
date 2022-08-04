@@ -6,3 +6,4 @@ const plantNeedsWater = fuction(day){
 console.log(plantNeedsWater('Tuesday'));
 console.log(typeof plantNeedsWater);
 console.log l
+
