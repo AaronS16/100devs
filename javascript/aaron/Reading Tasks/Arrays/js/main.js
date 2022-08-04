@@ -28,6 +28,3 @@ musketeers.forEach(musketeer => {
 
 musketeers.pop();
 console.log(musketeers[2]);
-
-
-
