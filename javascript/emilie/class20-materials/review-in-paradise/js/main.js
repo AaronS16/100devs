@@ -24,7 +24,7 @@ cube(5)
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
 function month (month){
     if (month === 'june' || month === 'july'){
-        alert('Summer!!');
+        alert('Yay!!');
     } else {
         alert('BOOOO!!');
     }
@@ -32,3 +32,11 @@ function month (month){
 month('june')
 //*Loops*
 //Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
+function skip5s(n){
+    for(let i = 1; i <= n; i++){
+        if (i % 5 !== 0 ){
+            console.log(i)
+        }
+    }
+}
+skip5s(10)
