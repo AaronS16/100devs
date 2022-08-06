@@ -8,3 +8,6 @@ function multiply(arr) {
 }
 
 multiply([1, 2, 3, 4, 5, 6]);
+
+
+  
