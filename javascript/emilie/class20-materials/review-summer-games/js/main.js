@@ -4,4 +4,4 @@ function MultiplyNumsInArr(arr){
     arr.forEach( num => product *= num )
     alert(product)
 } 
-MultiplyNumsInArr([10,2,3])
+MultiplyNumsInArr([10,2,3]);
