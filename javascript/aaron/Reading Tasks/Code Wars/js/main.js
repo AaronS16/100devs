@@ -37,12 +37,12 @@
 // console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);
 // console.log(`Look, a cat! ${dog.name} barks: ${dog.bark()}`);
 
-function makeNegative(num) {
-    // Code?
-    if (num === 0) {
-      return 0
-    } else if (num < 0) {
-      return num
-    } else return num *- 1;
-  }
-  console.log(makeNegative(-4))
+// function makeNegative(num) {
+//     // Code?
+//     if (num === 0) {
+//       return 0
+//     } else if (num < 0) {
+//       return num
+//     } else return num *- 1;
+//   }
+//   console.log(makeNegative(-4))
