@@ -1,3 +1,5 @@
+// Sum of Positive
+
 // function positiveSum(arr) {
 //     let sum = 0;
    
@@ -8,6 +10,45 @@
 //  }
 
 //  console.log(positiveSum([-1,2,-3,4,-5,6,-7]))
+
+// Reverse string (Make the text reverse)
+
+// function solution(str){
+//     return str.split("").reverse().join("");
+//   }
+//   solution("hello");
+
+//Turn a number into a string
+
+// function numberToString(num) {
+//     // Return a string of the number here!
+//     let str = num.toString();
+//     return str
+//   }
+
+//Opposite Number
+
+// const opposite = number => -number;
+
+//Even or Odd
+
+// function even_or_odd(number) {
+//     if (number % 2 === 0) {
+//       return 'Even'
+//     } else return 'Odd'
+//   }
+
+//Count by X
+
+// function countBy(x, n) {
+//     let z = [];
+//     for (let i = 1; i <= n; i++) {
+//       z.push(x * i);
+//     }
+//     return z;
+//   }
+
+//Character Object
 
 // const character = {
 //     name: 'Aurora',
@@ -36,6 +77,9 @@
 
 // console.log(`${dog.name} is a ${dog.species} dog measuring ${dog.size}`);
 // console.log(`Look, a cat! ${dog.name} barks: ${dog.bark()}`);
+
+
+//Return Negative
 
 // function makeNegative(num) {
 //     // Code?
