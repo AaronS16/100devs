@@ -90,3 +90,14 @@
 //     } else return num *- 1;
 //   }
 //   console.log(makeNegative(-4))
+
+//Repeat String
+
+function repeatStr (n, s) {
+    let text = ''
+    for (let i=1; i <= n; i++) {
+    text += s
+    }
+    return text
+  }
+  console.log(repeatStr(6,'Hola'))
