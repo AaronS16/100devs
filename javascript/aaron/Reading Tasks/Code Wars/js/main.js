@@ -93,11 +93,11 @@
 
 //Repeat String
 
-function repeatStr (n, s) {
-    let text = ''
-    for (let i=1; i <= n; i++) {
-    text += s
-    }
-    return text
-  }
-  console.log(repeatStr(6,'Hola'))
+// function repeatStr (n, s) {
+//     let text = ''
+//     for (let i=1; i <= n; i++) {
+//     text += s
+//     }
+//     return text
+//   }
+//   console.log(repeatStr(6,'Hola'))
