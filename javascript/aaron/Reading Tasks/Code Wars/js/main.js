@@ -101,3 +101,11 @@
 //     return text
 //   }
 //   console.log(repeatStr(6,'Hola'))
+
+// Remove first and last character
+
+// const removeChar = str => {
+//     return str.slice(1, str.length - 1)
+// }
+
+// console.log(removeChar('test'))
