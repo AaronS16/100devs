@@ -24,15 +24,16 @@ function takesInThreeNumbs(num1, num2, num3){
 takesInThreeNumbs(5,6,7);
 // *Conditionals*
 //Create a function that returns heads or tails randomly and as fairly as possible. Call the function.
-function headOrTails(){
-    let result = Math.random()
-    if(result < .5){
-        return 'Heads';
-    } else {
-        return 'Tails'
-} }
+// function headOrTails(){
+//     let result = Math.random()
+//     if(result < .5){
+//         return 'Heads';
+//     } else {
+//         return 'Tails'
+// } }
 // console.log(headOrTails());
 
+ const headOrTails = () => Math.random() < .5 ? 'Heads': 'Tails'
 //*Loops*
 //Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
 function headTail(n){
