@@ -31,16 +31,14 @@ function headOrTails(){
     } else {
         return 'Tails'
 } }
-console.log(headOrTails());
+// console.log(headOrTails());
 
 //*Loops*
 //Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
-function takeInANumber(n){
-    let result = Math.random(n);
-    if (results < .5){
-        return 'Heads'
-    } else {
-        return 'Tails'
+function headTail(n){
+    for(let i = 1; i <= n ; i++){
+        let result = headOrTails()
+        console.log(result);
     }
 }
-console.log(takeInANumber);
+    headTail(5);
