@@ -1,6 +1,8 @@
 //Arrays
 
 //Create and array of tv shows. Loop through and print each show to the console
+let tvShows = ['house', 'sand man', 'the bear']
+tvShows.forEach(show => console.log(show ))
 
 //Create and array of numbers
 //Return a new array of numbers that includes every even number from the previous Arrays
