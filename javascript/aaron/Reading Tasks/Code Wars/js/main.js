@@ -109,3 +109,7 @@
 // }
 
 // console.log(removeChar('test'))
+
+//Returning Strings
+
+// const greet = name => `Hello, ${name} how are you doing today?`;
