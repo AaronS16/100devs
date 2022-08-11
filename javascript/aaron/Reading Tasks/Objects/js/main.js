@@ -31,3 +31,8 @@ alert(sum);
 
 //Object Test 4
 
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+  };
