@@ -50,3 +50,8 @@ checkWinner('rock')
 Print the results of each game to the console. */
 
 
+function playGameXTimes(arr) {
+    arr.forEach( choice => checkWinner(choice))
+}
+
+playGameXTimes(['rock', 'paper', 'scissors'])
