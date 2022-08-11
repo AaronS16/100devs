@@ -7,17 +7,27 @@ console.log(drink);
 
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
 
-let items = 'Bananana, Pear, Plum, Apple';
-for (let i = 0; i <= items.length; i++) {
-    if (i === 'Apple') {
-        alert('You chose Apple')
-    } else alert('Wrong choice')
+let items = 'Bananana, Pear, Plum, apple';
+if ( items.search('apple') !== -1 ) {
+    console.log('yes')
+} else{
+    console.log('no')
 }
 
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible
 
-
+function rockPaperScissors() {
+    let random = Math.random()
+    if (random < .33) {
+        return 'rock'
+    } else if (random < .66) {
+        return 'paper'
+    } else {
+        return 'scissors'
+    }
+}
+console.log(rockPaperScissor())
 
 // *Conditionals*
 /*Create a function that takes in a choice (rock, paper, or scissors) and determines if they won a game of rock paper scissors 
