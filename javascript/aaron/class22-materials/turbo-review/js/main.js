@@ -8,7 +8,11 @@ console.log(drink);
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
 
 let items = 'Bananana, Pear, Plum, Apple';
-
+for (let i = 0; i <= items.length; i++) {
+    if (i === 'Apple') {
+        alert('You chose Apple')
+    } else alert('Wrong choice')
+}
 
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible
