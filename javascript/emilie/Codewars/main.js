@@ -112,3 +112,14 @@
 // Returning strings//
 
 // const greet = (name) =>`Hello, ${name} how are you doing today?` 
+// if you can't sleep, just count sheep!! 
+
+// let countSheep = function (num){
+//     let addingStr = '' 
+//     for( let i = 1; i <= num; i++){
+//         addingStr += `${i} sheep...`
+//     }
+//     return addingStr
+//   }
+
+// console.log(countSheep(5));
