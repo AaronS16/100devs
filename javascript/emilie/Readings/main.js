@@ -14,12 +14,20 @@
 //const r = Number(prompt('Enter the circle radius:'));//
 
 //modeling a bank account //
-const account ={
-    name: 'Alex',
-    balance: 0,
-    describe: 
-}
+// const account ={
+//     name: 'Alex',
+//     balance: 0,
+//     describe: 
+// }
 
-function credit(addingNum){
+// function credit(addingNum){
     
+// }
+
+//object reading//
+let user = {
+    name: 'John',
+    surname: 'Smith',
 }
+user.name = 'Pete';
+delete user.name; 
