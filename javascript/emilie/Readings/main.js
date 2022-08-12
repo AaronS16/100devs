@@ -39,6 +39,7 @@
 //     return true;
 // }
 
+
 // let salaries = {
 //     John: 100,
 //     Ann: 160,
@@ -51,6 +52,8 @@
 //     sum += salaries[key];
 // }
 // alert(sum);
+
+
 // let obj ={
 //     hello: 100,
 //     goodbye:300,
