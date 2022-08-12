@@ -60,7 +60,7 @@
 //     aurora.health -= 20;
 //     aurora.strength += 10;
 //     aurora.xp += 15;
-//     return `${this.name} has ${this.health} healm th points, ${this.strength} as strength, and ${this.xp} experience`;
+//     return `${this.name} has ${this.health} health points, ${this.strength} as strength, and ${this.xp} experience`;
 //     }
 // };
 // console.log(character.describe(character));
