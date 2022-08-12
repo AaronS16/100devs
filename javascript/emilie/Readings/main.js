@@ -51,16 +51,17 @@
 //     sum += salaries[key];
 // }
 // alert(sum);
-let obj ={
-    hello: 100,
-    goodbye:300,
-    welcome: 3452,
-}
-let product = 0;
-function multiplyNumeric(obj){
-    for(let key in obj){
-        if (typeof obj[key] == 'number'){
-            obj[key] *= 2;
-        }
-    }
-}
+// let obj ={
+//     hello: 100,
+//     goodbye:300,
+//     welcome: 3452,
+// }
+// let product = 0;
+// function multiplyNumeric(obj){
+//     for(let key in obj){
+//         if (typeof obj[key] == 'number'){
+//             obj[key] *= 2;
+//         }
+//     }
+// }
+
