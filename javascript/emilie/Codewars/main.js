@@ -123,3 +123,12 @@
 //   }
 
 // console.log(countSheep(5));
+
+//Create a method to see whether the string is ALL CAPS.//
+
+String.prototype.isUpperCase = function(str) {
+    return this == this.toUpperCase()
+     } 
+     {
+        
+     }
