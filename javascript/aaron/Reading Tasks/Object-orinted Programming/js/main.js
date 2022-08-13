@@ -69,15 +69,17 @@ if ('radius' in circle)
 function Circle(radius){
     this.radius = radius;
 
-    this.defaultLocation = { x:0, y: 0 };
+    let defaultLocation = { x: 0, y: 0 };
 
-    this.computeOptimumLocation = function() {
+    let computeOptimumLocation = function(factor) {
 
     }
 
     this.draw = function() {
-        this.computeOptimumLocation();
+        computeOptimumLocation(0.1);
+        
         console.log('draw');
     }
 }
 const circle4 = new Circle(10);
+circle.draw();
