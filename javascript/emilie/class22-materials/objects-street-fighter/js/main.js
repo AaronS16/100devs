@@ -14,3 +14,5 @@ function MakeSFCharacter(punch, kick, catchPhrase,specialMove){
         console.log(`Whoop, missed me!`)
     }
 }
+
+let em = new MakeSFCharacter('high','high','Bitch','heyy heyy')
