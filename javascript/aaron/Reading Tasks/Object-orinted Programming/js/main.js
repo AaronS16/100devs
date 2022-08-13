@@ -43,3 +43,23 @@ circle2.location = {x: 1};
 circle2['location'] = {x: 1}; //Brackets allow you to access a property if it contains a space or special character in its name
 
 delete circle2.location;
+
+//Enumerating Properties
+
+function Circle(radius){
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+    }
+}
+const circle3 = new Circle(10);
+for (let key in circle3) {
+    if (typeof circle3[key] !== 'function')
+    console.log(key, circle[key]);
+}
+
+const keys = Object.keys(circle);
+console.log(keys);
+
+if ('radius' in circle)
+    console.log('Circle has a radius.')
