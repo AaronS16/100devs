@@ -9,3 +9,5 @@ const circle = {
     }
 
 };
+
+circle.draw();
