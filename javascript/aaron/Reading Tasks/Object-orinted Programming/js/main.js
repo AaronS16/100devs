@@ -72,7 +72,7 @@ function Circle(radius){
     let defaultLocation = { x: 0, y: 0 };
 
     let computeOptimumLocation = function(factor) {
-
+//Changing these to let instead of this makes them local and not visioble publicly
     }
 
     this.draw = function() {
@@ -82,4 +82,28 @@ function Circle(radius){
     }
 }
 const circle4 = new Circle(10);
+circle.draw();
+
+//Getters/Setters
+
+function Circle(radius){
+    this.radius = radius;
+
+    let defaultLocation = { x: 0, y: 0 };
+
+    this.draw = function() {
+        computeOptimumLocation(0.1);
+        
+        console.log('draw');
+    };
+    Object.defineProperty(this, 'defaultLocation', {
+        get: function() {
+                return defaultLocation
+            }, 
+            set: function(value) {
+                defaultLocation = value;
+            }
+    })
+}
+const circle5 = new Circle(10);
 circle.draw();
