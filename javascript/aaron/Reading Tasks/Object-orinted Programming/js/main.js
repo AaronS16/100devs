@@ -21,3 +21,10 @@ const another = new Circle(1);
 
 //Value vs Reference Types
 
+let obj = {value: 10};
+function increase(obj) {
+    obj.value++;
+}
+
+increase(obj);
+console.log(obj);
