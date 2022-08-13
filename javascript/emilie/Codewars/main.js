@@ -126,9 +126,14 @@
 
 //Create a method to see whether the string is ALL CAPS.//
 
-String.prototype.isUpperCase = function(str) {
-    return this == this.toUpperCase()
-     } 
-     {
+// String.prototype.isUpperCase = function(str) {
+//     return this == this.toUpperCase()
+//      } 
+//      {
         
-     }
+//      }
+
+//hex to decimal //
+function hexToDec(hexString){
+    return parseInt(hexString,16);
+  }
