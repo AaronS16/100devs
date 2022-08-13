@@ -129,3 +129,10 @@
 // function hexToDec(hexString){
 //     return parseInt(hexString,16);
 //   }
+
+//Is the string uppercase
+
+String.prototype.isUpperCase = function(str) {
+    this.str == this.str.isUpperCase()
+    console.log(true)
+  }
