@@ -63,3 +63,21 @@ console.log(keys);
 
 if ('radius' in circle)
     console.log('Circle has a radius.')
+
+//Abstraction
+
+function Circle(radius){
+    this.radius = radius;
+
+    this.defaultLocation = { x:0, y: 0 };
+
+    this.computeOptimumLocation = function() {
+
+    }
+
+    this.draw = function() {
+        this.computeOptimumLocation();
+        console.log('draw');
+    }
+}
+const circle4 = new Circle(10);
