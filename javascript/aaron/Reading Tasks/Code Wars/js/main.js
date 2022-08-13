@@ -132,7 +132,6 @@
 
 //Is the string uppercase
 
-String.prototype.isUpperCase = function(str) {
-    this.str == this.str.isUpperCase()
-    console.log(true)
-  }
+// String.prototype.isUpperCase = function(str) {
+//     return this == this.toUpperCase()
+//   }
