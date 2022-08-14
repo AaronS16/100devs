@@ -82,7 +82,7 @@ function Circle(radius){
         console.log('draw');
     }
 }
-constcircle4 = new Circle(10);
+const circle4 = new Circle(10);
 circle.draw();
 
 //Getters/Setters
