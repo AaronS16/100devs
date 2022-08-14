@@ -53,15 +53,16 @@ function Circle(radius){
     }
 }
 const circle3 = new Circle(10);
+
 for (let key in circle3) {
     if (typeof circle3[key] !== 'function')
-    console.log(key, circle[key]);
+    console.log(key, circle3[key]);
 }
 
-const keys = Object.keys(circle);
+const keys = Object.keys(circle3);
 console.log(keys);
 
-if ('radius' in circle)
+if ('radius' in circle3)
     console.log('Circle has a radius.')
 
 //Abstraction
@@ -72,7 +73,7 @@ function Circle(radius){
     let defaultLocation = { x: 0, y: 0 };
 
     let computeOptimumLocation = function(factor) {
-//Changing these to let instead of this makes them local and not visioble publicly
+//Changing these to let instead of this makes them local and not visiable publicly
     }
 
     this.draw = function() {
@@ -81,7 +82,7 @@ function Circle(radius){
         console.log('draw');
     }
 }
-const circle4 = new Circle(10);
+constcircle4 = new Circle(10);
 circle.draw();
 
 //Getters/Setters
