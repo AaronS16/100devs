@@ -135,3 +135,11 @@
 // String.prototype.isUpperCase = function(str) {
 //     return this == this.toUpperCase()
 //   }
+
+//Lost without a map
+
+// function maps(x){
+//     return x.map( n => n * 2);
+//   }
+
+//   console.log(maps([2, 3, 4]))
