@@ -21,7 +21,7 @@ const another = new Circle(1);
 
 //Value vs Reference Types
 
-let obj = {value: 10};
+let obj = {value: 10}; //Brackets (objects) create a reference point that is used through out the entire code and doesn't use hierarcgy
 function increase(obj) {
     obj.value++;
 }
