@@ -75,11 +75,26 @@
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
        const category = document.querySelector('.mw-catrgory');
        const links = Array.category.querySelectorAll('a');
-       const de = links.map(link => link.textContent);
+       const de = links
+                .map(link => link.textContent)
+                .filter(streetName => streetName.includes('de'));
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
-
+       const alpha = people.sort((lastOne, nextOne) => {
+        const[aLast, aFirst] = lastOne.split(',');
+        const[bLast, bFirst] = nextOne.split(',');
+        return aLast > bLast ? 1:-1;
+       });
+       console.log(last, first);
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+       const transportation = data.reduce(function(obj,item){
+        if (!obj[item]){
+        }
+        obj[item]++;
+        console.log(item);
+        return obj;
+       },{})
+       
