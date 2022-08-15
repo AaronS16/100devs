@@ -151,3 +151,9 @@
 //     }
 //     return arr;
 //     }
+
+//You only need One
+
+// function check(a, x) {
+//     return a.includes(x);
+//    }
