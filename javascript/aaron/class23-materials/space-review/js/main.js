@@ -11,7 +11,9 @@ alert(nums.reduce((acc, c) => acc + c, 0))
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 
-let newArr = nums => nums.map(num => num**2)
+let newArr = nums.map(num => num**2)
+
+console.log(newArr)
 
 
 //Create a function that takes string
