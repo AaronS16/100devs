@@ -16,7 +16,7 @@ console.log(newSent.replaceAll('jr. dev', 'software developer'))
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible
 
-function rockPaperScissors(choice) {
+function rockPaperScissors() {
    let random = Math.random();
    if(random < .33) {
     return 'rock'
