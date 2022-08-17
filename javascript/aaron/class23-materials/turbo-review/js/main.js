@@ -43,7 +43,7 @@ function chooseWinner(playerchoice) {
         console.log('You lose')
     }
 }
-checkWinner('rock')
+chooseWinner('rock')
 
 //*Loops*
 /*Create a function that takes an array of choices. Play the game x times where x is the number of choices in the array. 
