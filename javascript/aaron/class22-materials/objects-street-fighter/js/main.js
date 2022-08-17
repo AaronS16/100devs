@@ -7,7 +7,7 @@ function MakeCharacter (name, fightStyle, height, age) {
     this.age = age;
     
     this.victoryCheer = function() {
-        coneole.log('Whoo hoo');
+        console.log('Whoo hoo');
     }
     this.losingCheer = function() {
         console.log('Aww man');
