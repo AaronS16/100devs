@@ -181,3 +181,10 @@
 //     return abbreviation.toUpperCase()
   
 //   }
+
+//Sum Mixed Array
+
+// Answer 1
+// function sumMix(x){
+//     return x.map(a => +a).reduce((a, b) => a + b);
+//   }
