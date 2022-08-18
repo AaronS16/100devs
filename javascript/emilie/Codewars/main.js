@@ -149,13 +149,17 @@ function check(a, x) {
     }
     // Contaminated String
 
-// const contamination = ((text, char) => {
-//     let contaminated = ''
-//     if(text < 0 || char < 0) {
-//       return  '';
-//     } else {
-//         for(let i = 0; i < text.length; i++)
-//         contaminated += `${char}`;
-//     }
-//     return contaminated
-//     });
+const contamination = ((text, char) => {
+    let contaminated = ''
+    if(text < 0 || char < 0) {
+      return  '';
+    } else {
+        for(let i = 0; i < text.length; i++)
+        contaminated += `${char}`;
+    }
+    return contaminated
+    });
+
+    function sumMix(x){
+        return x.map(a => +a).reduce((a,b) => a + b, 0);
+        }
