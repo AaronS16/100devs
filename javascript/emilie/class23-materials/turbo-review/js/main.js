@@ -1,6 +1,7 @@
 // *Variables*
 // Declare a variable and assign it to a sentance as a string. Alert if the sentance is a question
-
+const sentance = 'happiest weeek ever!'
+alert(sentance)
 //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
 
 // *Functions*
