@@ -4,9 +4,8 @@ const sentance = 'happiest weeek ever?'
 
 alert(sentance.endsWith('?'))
 //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
-let multipleWords = 'I am jr. dev'
-multipleWords = 'I am a software engineer'
-console.log(multipleWords)
+let multipleWords = '   I am looking for jr. dev positions'
+console.log(multipleWords.replaceAll('jr. dev', 'software engineering'))
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible
 function rockPaperScissors(){
