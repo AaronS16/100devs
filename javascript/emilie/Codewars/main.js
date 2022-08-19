@@ -164,4 +164,5 @@ const contamination = ((text, char) => {
         return x.map(a => +a).reduce((a,b) => a + b, 0);
         }
 
-    
+    // Given a string, you have to return a string in which each character (case-sensitive) is repeated once.//
+    const doubleChar = (str) => str.split("").map(c => c + c ).join("");
