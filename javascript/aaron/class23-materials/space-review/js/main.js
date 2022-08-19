@@ -2,7 +2,7 @@
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
 
-let nums = [2, '8', 11, 24]
+let nums = [2, 8, 11, 24]
 
 alert(nums.reduce((acc, c) => acc + c, 0))
 
