@@ -188,3 +188,15 @@
 // function sumMix(x){
 //     return x.map(a => +a).reduce((a, b) => a + b);
 //   }
+
+//Repeat each character
+
+// function doubleChar(str) {
+//     let newStr = '';
+//     for( let i = 0; i < str.length; i++) {
+//       newStr += str[i] + str[i];
+//     }
+//     return newStr;
+//   }
+  
+//   const doubleChar = (str) => str.split("").map(c => c + c).join("");
