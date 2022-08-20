@@ -200,3 +200,7 @@
 //   }
   
 //   const doubleChar = (str) => str.split("").map(c => c + c).join("");
+
+// Is n divisible by x AND y
+
+// const isDivisible = (n, x, y) => n % x === 0 && n % y === 0 ? true : false;
