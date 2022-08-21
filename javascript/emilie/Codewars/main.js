@@ -181,4 +181,6 @@ const contamination = ((text, char) => {
           return nums
           
           }
-      
+ 
+          // Name Shuffler //
+          const nameShuffler = (str) => str.split(" ").reverse("").join(" ");
