@@ -204,3 +204,16 @@
 // Is n divisible by x AND y
 
 // const isDivisible = (n, x, y) => n % x === 0 && n % y === 0 ? true : false;
+
+// Find multiples of a number (For integer find how many times it goes into limit)
+
+function findMultiples(integer, limit) {
+    let answer = []
+    for (let i = 1; i <= limit; i++) {
+      if ( i % integer === 0) {
+        answer.push(i)
+      }
+    }
+    return answer
+  }
+  
