@@ -207,13 +207,13 @@
 
 // Find multiples of a number (For integer find how many times it goes into limit)
 
-function findMultiples(integer, limit) {
-    let answer = []
-    for (let i = 1; i <= limit; i++) {
-      if ( i % integer === 0) {
-        answer.push(i)
-      }
-    }
-    return answer
-  }
+// function findMultiples(integer, limit) {
+//     let answer = []
+//     for (let i = 1; i <= limit; i++) {
+//       if ( i % integer === 0) {
+//         answer.push(i)
+//       }
+//     }
+//     return answer
+//   }
   
