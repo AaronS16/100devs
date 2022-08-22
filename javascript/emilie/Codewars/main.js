@@ -184,3 +184,12 @@ const contamination = ((text, char) => {
  
           // Name Shuffler //
           const nameShuffler = (str) => str.split(" ").reverse("").join(" ");
+
+          // Count by X //
+          function countBy(x, n) {
+            let z = [];
+            for (let i = 1; i <= n; i++){
+              z.push(x * i);
+            }
+            return z;
+          }
