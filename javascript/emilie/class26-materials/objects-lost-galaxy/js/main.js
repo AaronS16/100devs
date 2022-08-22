@@ -13,3 +13,18 @@ pizza.burnMouth = function(){
 pizza.frisbee = function(){
     console.log('YEeeeeetttt')
 }
+
+let pizzaTwo = {}
+pizzaTwo.size = 'small'
+pizzaTwo.toppings = ['spinach', ' onion', 'jalapenos','banana peppers']
+pizzaTwo.crust = 'thin'
+pizzaTwo.sauce = 'normal'
+pizzaTwo.estimatedDelieveryTime = function(){
+    console.log('Calculating..')
+}
+pizzaTwo.burnMouth = function(){
+    console.log('gjsdjdkjnjkdfjk')
+}
+pizzaTwo.frisbee = function(){
+    console.log('YEeeeeetttt')
+}
