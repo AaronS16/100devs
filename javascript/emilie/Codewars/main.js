@@ -168,3 +168,19 @@ const contamination = ((text, char) => {
     const doubleChar = (str) => str.split("").map(c => c + c ).join("");
     // Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits.//
     const isDivisible = (n, x, y) => n % x == 0 && n % y == 0 ? true : false;
+
+    // Find Multiples of a Number//
+    function findMultiples(integer, limit) {
+        let nums = []
+        for(let i = 1; i <= limit; i++ ){
+          if(i % integer == 0){
+            nums.push(i)
+          } 
+          
+        }
+          return nums
+          
+          }
+ 
+          // Name Shuffler //
+          const nameShuffler = (str) => str.split(" ").reverse("").join(" ");
