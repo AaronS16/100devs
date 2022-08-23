@@ -1,7 +1,7 @@
 //Create a constructor with 4 properties and 3 methods
 
 
-function Makepizza(size, crust, cheese, topping) {
+function MakePizza(size, crust, cheese, topping) {
     this.size = size
     this.crust = crust
     this.cheese = cheese
