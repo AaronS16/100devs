@@ -11,8 +11,10 @@
 /* LAYOUT
 /*******************************************/
 img{
-  display: block;
+  display: flexbox;
   margin: 0 auto;
+  height: 200px;
+  align-self: flex-start;
 }
 
 
