@@ -15,3 +15,5 @@ fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
         document.querySelector('h3').innerText = data.drinks[0].strInstructions
     })
 }
+
+//Push to make it cycle through drink options
