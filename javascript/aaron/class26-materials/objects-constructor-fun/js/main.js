@@ -18,3 +18,5 @@ function MakePizza(size, crust, cheese, topping) {
         console.log('Cook it in the wood oven');
     }
 }
+
+let pizza = new MakePizza('large', 'stuffed', 'mozzarella', 'pepporroni')
