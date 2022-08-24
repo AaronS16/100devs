@@ -6,7 +6,7 @@ function getDrink() {
 
     let drink = document.querySelector('input').value
 
-fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
+fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=" + drink)
     .then(res => res.json())
     .then(data  => {
         console.log(data.drinks[0])
