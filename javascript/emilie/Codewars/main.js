@@ -170,26 +170,28 @@ const contamination = ((text, char) => {
     const isDivisible = (n, x, y) => n % x == 0 && n % y == 0 ? true : false;
 
     // Find Multiples of a Number//
-    function findMultiples(integer, limit) {
-        let nums = []
-        for(let i = 1; i <= limit; i++ ){
-          if(i % integer == 0){
-            nums.push(i)
-          } 
+    // function findMultiples(integer, limit) {
+    //     let nums = []
+    //     for(let i = 1; i <= limit; i++ ){
+    //       if(i % integer == 0){
+    //         nums.push(i)
+    //       } 
           
-        }
-          return nums
+    //     }
+    //       return nums
           
-          }
+    //       }
  
-          // Name Shuffler //
-          const nameShuffler = (str) => str.split(" ").reverse("").join(" ");
+    //       // Name Shuffler //
+    //       const nameShuffler = (str) => str.split(" ").reverse("").join(" ");
 
-          // Count by X //
-          function countBy(x, n) {
-            let z = [];
-            for (let i = 1; i <= n; i++){
-              z.push(x * i);
-            }
-            return z;
-          }
+    //       // Count by X //
+    //       function countBy(x, n) {
+    //         let z = [];
+    //         for (let i = 1; i <= n; i++){
+    //           z.push(x * i);
+    //         }
+    //         return z;
+    //       }
+
+const smallEnough= (a, limit) => a <= limit ? 'true' :'false'
