@@ -8,9 +8,9 @@ fetch(`https://bobsburgers-api.herokuapp.com/characters/?limit=`)
   .then(res => res.json())
   .then(data => {
     console.log(data[`${choice}`])
-    console.log(choice)
-    document.querySelector('.title').innerText = data[`${choice}`].name
+    document.querySelector('.name').innerText = data[`${choice}`].name
     document.querySelector('img').src = data[`${choice}`].image
-    document.querySelector('.time').innerText = data[`${choice}`].firstEpisode
+    document.querySelector('.episode').innerText = data[`${choice}`].firstEpisode
+    document.querySelector('.voice').innerText = data[`${choice}`].voicedBy
   })
 }
