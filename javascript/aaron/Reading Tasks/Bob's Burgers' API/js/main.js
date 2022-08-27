@@ -11,5 +11,6 @@ fetch(`https://bobsburgers-api.herokuapp.com/characters/?limit=`)
     console.log(choice)
     document.querySelector('.title').innerText = data[`${choice}`].name
     document.querySelector('img').src = data[`${choice}`].image
+    document.querySelector('.time').innerText = data[`${choice}`].firstEpisode
   })
 }
