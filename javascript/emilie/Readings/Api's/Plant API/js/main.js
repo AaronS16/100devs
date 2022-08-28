@@ -4,12 +4,12 @@ function getDog() {
 
 
 
-fetch('https://dog.ceo/api/breeds/image/random')
+fetch('')
   .then( res => res.json())
   .then( data => {
-    console.log(data.message) 
+    console.log(data) 
 
-    document.querySelector('img').src = data.message
+    document.querySelector('img').src = data
 
   })
 
