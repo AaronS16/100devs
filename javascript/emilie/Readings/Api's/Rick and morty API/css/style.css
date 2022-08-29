@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: slategray;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 150%;
+}
+.center-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.banana{
+  display: flex;
+  flex-direction: column;
+  border: 10px dotted black;
+  background-color: wheat;
+}
+button{
+background-color: wheat;
+border: 5px solid black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
