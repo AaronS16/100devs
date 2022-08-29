@@ -8,10 +8,11 @@ class MakeShow{
 }
 play (){
     alert('lets go!')
+}
 stop(){
     alert('Stop!!')
 }
 skip (){
-    alert('skip that shit!!')
+    alert('skip that intro!!')
 }
-}} 
+}
