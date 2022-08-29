@@ -20,4 +20,4 @@ class TvShow {
     }
 }
 
-let sandman = new TvShow('Sandman', 'Fantasy', 'TV-M', '10')
+let sandman = new TvShow('Sandman', 'Fantasy', 'TV-M', '10');
