@@ -16,3 +16,5 @@ skip (){
     alert('skip that intro!!')
 }
 }
+
+let sandMan = new MakeShow('Sand Man', 'Not long enough', 'Dream', 'Godsss!')
