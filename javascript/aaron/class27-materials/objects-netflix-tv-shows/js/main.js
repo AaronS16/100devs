@@ -3,6 +3,21 @@
 
 class TvShow {
     constructor(title, genre, rating, review) {
+        this.title = title
+        this.genre = genre
+        this.rating = rating
+        this.review = review
+    }
 
+    play(){
+        console.log('Play the show')
+    }
+    stop(){
+        consolee.log('Stop the show')
+    }
+    rewind(){
+        console.log('Rewind 10 seconds')
     }
 }
+
+let sandman = new TvShow('Sandman', 'Fantasy', 'TV-M', '10')
