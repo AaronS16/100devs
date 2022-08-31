@@ -6,6 +6,7 @@ localStorage.setItem('botScore', 0)
 document.querySelector('button').addEventListener('click', addOne)
 
 function addOne(){
-    let botScoreVsl = localStorage.getItem('botScore')
-
+    let botScoreVsl = Number(localStorage.getItem('botScore'))
+    botScoreVal +- 1
+    localStorage.setItem('botScore', botScoreVsl)
 }
