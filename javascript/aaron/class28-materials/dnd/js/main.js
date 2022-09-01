@@ -8,7 +8,7 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-       
+       console.log(data.results)
       })
       .catch(err => {
           console.log(`error ${err}`)
