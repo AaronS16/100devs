@@ -9,6 +9,11 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
        console.log(data)
+       document.querySelector('h2').innerText = data.name
+       document.querySelector('h3').innerText = data.classes[0].name
+       for(let i = 0; i < data.subclasses; i++) {
+        document.querySelector('ul').innerText = data.subclasses[i].name
+       }
       })
       .catch(err => {
           console.log(`error ${err}`)
