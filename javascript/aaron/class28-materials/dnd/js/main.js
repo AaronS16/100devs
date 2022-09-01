@@ -11,7 +11,7 @@ function getFetch(){
        console.log(data)
        document.querySelector('h2').innerText = data.name
        document.querySelector('h3').innerText = data.classes[0].name
-       for(let i = 0; i < data.subclasses; i++) {
+       for(let i = 0; i < data.subclasses.length; i++) {
         document.querySelector('ul').innerText = data.subclasses[i].name
        }
       })
