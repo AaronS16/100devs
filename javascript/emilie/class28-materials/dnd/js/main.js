@@ -8,6 +8,11 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
+        console.log(data)
+        document.querySelector('h2').innerText = data.
+        document.querySelector('h3').innerText = data
+        document.querySelector('h4').innerText = data
+        document.querySelector('iframe').src = data.url
        
       })
       .catch(err => {
