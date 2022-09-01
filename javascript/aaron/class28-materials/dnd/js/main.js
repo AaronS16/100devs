@@ -14,7 +14,7 @@ function getFetch(){
        data.subclasses.forEach( el => {
         console.log(el.name)
         const li = document.createElement('li')
-        li.textContent = el.name
+        li.innerText = el.name
         document.querySelector('ul').appendChild(li)
         })
       })
