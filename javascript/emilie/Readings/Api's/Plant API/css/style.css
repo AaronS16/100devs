@@ -10,18 +10,34 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-
+body{
+  background-color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .center-align{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 img{
   display: block;
   margin: 0 auto;
+  background-color: gainsboro;
 }
-
+h3, h2 , h4 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+button{
+  background-color: gray;
+  color: black;
+  font-size: medium;
+  border: 10px solid gray;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
