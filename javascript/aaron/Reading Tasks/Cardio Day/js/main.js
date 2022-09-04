@@ -101,5 +101,3 @@
         return obj;
       }, {});
       console.log(transportation)
-
-      
