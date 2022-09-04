@@ -13,5 +13,6 @@ fetch(`https://bobsburgers-api.herokuapp.com/characters/?limit=`)
     document.querySelector('.episode').innerText = data[`${choice}`].firstEpisode
     document.querySelector('.voice').innerText = data[`${choice}`].voicedBy
     document.querySelector('.wiki').innerText = data[`${choice}`].wikiUrl
+    
   })
 }
