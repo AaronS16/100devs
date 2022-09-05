@@ -22,6 +22,8 @@ html {
 
 body {
   margin: 0;
+  display: flexbox;
+  text-align: center;
 }
 
 /**
