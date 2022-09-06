@@ -9,10 +9,20 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-        document.querySelector('h2').innerText = data.
-        document.querySelector('h3').innerText = data
-        document.querySelector('h4').innerText = data
-        document.querySelector('iframe').src = data.url
+        document.querySelector('h2').innerText = data.name
+
+        data.classes.forEach(a => {
+          const liTwo = document.createElement('li')
+          liTwo.textContent = a.name
+          document.querySelector('#apple').appendChild(liTwo)
+        })
+
+        data.subclasses.forEach(obj => {
+        console.log(obj.name)
+        const li = document.createElement('li')
+        li.textContent = obj.name
+        document.querySelector('#grape').appendChild(li)
+      })
        
       })
       .catch(err => {
