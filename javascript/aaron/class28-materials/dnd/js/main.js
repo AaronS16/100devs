@@ -22,20 +22,3 @@ function getFetch(){
           console.log(`error ${err}`)
       });
 }
-
-class Makepizza{ 
-  constructor (pizzaSize,pizzaTopping,pizzaCrust,pizzaSauce){
-  this.size = pizzaSize
-  this.toppings = pizzaTopping
-  this.crust = pizzaCrust
-  this.sauce = pizzaSauce
-}
-estimatedDelieveryTime (){
-  console.log('Calculating..')
-}
-burnMouth(){
-  console.log('gjsdjdkjnjkdfjk')
-}
-frisbee(){
-  console.log('YEeeeeetttt')
-}} 
