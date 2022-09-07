@@ -1,5 +1,5 @@
 //Create a constructor with 4 properties and 3 methods
-class Makepizza{ 
+class MakePizza{ 
     constructor (pizzaSize,pizzaTopping,pizzaCrust,pizzaSauce){
     this.size = pizzaSize
     this.toppings = pizzaTopping
