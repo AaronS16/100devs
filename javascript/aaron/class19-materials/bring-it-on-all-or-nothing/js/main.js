@@ -44,21 +44,37 @@ function text (b, word) {
 by 3 log "fizz" instead of that number, if the number is divisible by 5 log "buzz" instead of the number, and if the number 
 is divisible by 3 and 5 log "fizzbuzz" instead of that number */
 
-function fizz (x) {
-    for (let i = 1; i <= x; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            console.log('Fizzbuzz')
-        } else if (i % 3 === 0) {
-            console.log('Fizz')
-        } else if (i % 5 === 0) {
-            console.log('Buzz')
-        } else console.log(i)
-    }
-}
-fizz(20);
+// function fizz (x) {
+//     for (let i = 1; i <= x; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             console.log('Fizzbuzz')
+//         } else if (i % 3 === 0) {
+//             console.log('Fizz')
+//         } else if (i % 5 === 0) {
+//             console.log('Buzz')
+//         } else console.log(i)
+//     }
+// }
+// fizz(20);
 
 function derive (coefficient,exponent) {
     return `${coefficient * exponent} 'x^' ${exponent - 1}`
   }
   
   derive(7,8)
+
+  function fizzBuzz (x) {
+    for ( let i = 1; i <= x; i++) {
+        
+        if ( i % 3 === 0 && i % 5 === 0 ) {
+            console.log('fizzbuzz')
+        } else if( i % 3 === 0) {
+            console.log('fizz')
+        } else if( i % 5 === 0) {
+            console.log('buzz')
+        }
+    }
+    
+  }
+
+  fizzBuzz(15)
