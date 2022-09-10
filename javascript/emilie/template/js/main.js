@@ -12,3 +12,6 @@ function getGrade (s1, s2, s3) {
   } else{
     return 'F'
   }}
+
+  const fruits = ['mango', 'papaya','pineapple','apple']
+  fruits.forEach(fruits => console.log(`I want to eat a ${fruits}`))
