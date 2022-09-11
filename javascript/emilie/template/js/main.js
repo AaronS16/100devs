@@ -12,6 +12,37 @@ function getGrade (s1, s2, s3) {
   } else{
     return 'F'
   }}
+  
+
+  // .forEach()//
 
   const fruits = ['mango', 'papaya','pineapple','apple']
   fruits.forEach(fruits => console.log(`I want to eat a ${fruits}`))
+
+  //findIndex()//
+
+  const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+const foundAnimal = animals.findIndex( animals => {
+  return animals === 'elephant'
+}) 
+
+// reduce()//
+const newNumbers = [1, 3, 5, 7];
+const newSum = newNumbers.reduce((accumulator,currentValue) =>{
+console.log('The value of accumulator: ', accumulator);
+console.log('The value of currentValue: ', currentValue);
+return accumulator + currentValue
+}, 10)
+console.log(newSum) 
+
+
+
+
+// function removeChar(str){
+//  const z =  str.slice(1,str.length -1) 
+//    console.log(z)
+//  }
+
+ const removeChar = str => str.slice(1,str.length -1) 
+
+ // const removeChar = str => str.slice(1,-1)// best Practice 
