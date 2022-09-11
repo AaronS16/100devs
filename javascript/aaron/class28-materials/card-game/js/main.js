@@ -1,5 +1,5 @@
 //Get the deck
-let deckId = ''
+// let deckId = ''
 
 // fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
 //       .then(res => res.json()) // parse response as JSON
@@ -55,11 +55,53 @@ let deckId = ''
 // }
 
 
+let deckId = ''
+
 fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
   .then(res => res.json())
   .then(data => {
-    console.log(data)
+    deckId = data.deck_id
   })
 
 
 
+document.querySelector('button').addEventListener('click', drawCards)
+
+function drawCards() {
+  const url = `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`
+  fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      console.log(data)
+      document.querySelector('#player1').src = data.cards[0].image
+      document.querySelector('#player2').src = data.cards[1].image
+      let player1 = Number(valueCards(data.cards[0].value))
+      let player2 = Number(valueCards(data.cards[1].value))
+    if(player1 > player2) {
+      document.querySelector('h3').innerText = 'Player 1 Wins!'
+    } else if (player1 < player2) {
+      document.querySelector('h3').innerText = 'Player 2 Wins!'
+    } else {
+      document.querySelector('h3').innerText = 'War!'
+    }
+      console.log(player1)
+      console.log(player2)
+    })
+
+    function valueCards(val) {
+      if(val === 'KING') {
+        return 13
+      } else if (val === 'ACE') {
+        return 14
+      } else if (val === 'QUEEN') {
+        return 12
+      } else if (val === 'JACK') {
+        return 11
+      } else {
+        return val
+      }
+    }
+    
+}
+
+// jack = 11, queen = 12, king = 13, ace = 14
