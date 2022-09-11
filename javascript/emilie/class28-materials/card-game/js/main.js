@@ -31,7 +31,7 @@ function getFetch(){
         }else if(val1 < val2){
           document.querySelector('h3').innerText = 'Player 2 WON!'
         }else{
-          document.querySelector('h3').innerText = 'WAR!'
+          document.querySelector('h3').innerText = 'WAR!' 
         }
         
       })
