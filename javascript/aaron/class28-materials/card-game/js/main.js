@@ -90,21 +90,24 @@ function drawCards() {
     } else {
       document.querySelector('h3').innerText = 'War!'
     }
-    })
-
-    function valueCards(val) {
-      if(val === 'KING') {
-        return 13
-      } else if (val === 'ACE') {
-        return 14
-      } else if (val === 'QUEEN') {
-        return 12
-      } else if (val === 'JACK') {
-        return 11
-      } else {
-        return val
-      }
-    }
     
+    })
+    .catch(err => {
+      alert(`Error no cards remaining in deck. Please refresh page to play again.`)
+            });    
+}
+
+function valueCards(val) {
+  if(val === 'KING') {
+    return 13
+  } else if (val === 'ACE') {
+    return 14
+  } else if (val === 'QUEEN') {
+    return 12
+  } else if (val === 'JACK') {
+    return 11
+  } else {
+    return val
+  }
 }
 
