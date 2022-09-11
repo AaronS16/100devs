@@ -56,6 +56,8 @@
 
 
 let deckId = ''
+let player1Total = 0
+let player2Total = 0
 
 fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
   .then(res => res.json())
@@ -68,8 +70,8 @@ fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
 document.querySelector('button').addEventListener('click', drawCards)
 
 function drawCards() {
-  const url = `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`
-  fetch(url)
+  
+  fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`)
     .then(res => res.json())
     .then(data => {
       console.log(data)
@@ -78,14 +80,16 @@ function drawCards() {
       let player1 = Number(valueCards(data.cards[0].value))
       let player2 = Number(valueCards(data.cards[1].value))
     if(player1 > player2) {
-      document.querySelector('h3').innerText = 'Player 1 Wins!'
+      player1Total = player1Total + 1
+      document.querySelector('h3').innerText = `Player 1 Wins!`
+      document.querySelector('.playerOne').innerText = `\n Player 1 has ${player1Total} points `
     } else if (player1 < player2) {
-      document.querySelector('h3').innerText = 'Player 2 Wins!'
+      player2Total = player2Total + 1
+      document.querySelector('h3').innerText = `Player 2 Wins!`
+      document.querySelector('.playerTwo').innerText = `\n Player 2 has ${player2Total} points `
     } else {
       document.querySelector('h3').innerText = 'War!'
     }
-      console.log(player1)
-      console.log(player2)
     })
 
     function valueCards(val) {
