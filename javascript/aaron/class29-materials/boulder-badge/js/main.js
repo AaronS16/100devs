@@ -4,7 +4,7 @@ and weedle which is at level 1 and evolves at level 7. Create three variables to
 sums all the rare candies you would need. */
 
 function evolve (level, evolve) {
- evolved = 0
+ let evolved = 0
 for(let i = level; i < evolve; i++) {
     evolved += 1
 }
