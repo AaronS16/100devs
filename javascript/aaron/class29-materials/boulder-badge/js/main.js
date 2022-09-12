@@ -11,9 +11,9 @@ for(let i = level; i < evolve; i++) {
  return evolved
 }
 
-let bulbasaurCandy = evolve(5, 16)
-let weedleCandy = evolve(1, 7)
-let caterpieCandy = evolve(1, 7)
+let bulbasaurCandy = whenToEvolve(5, 16)
+let weedleCandy = whenToEvolve(1, 7)
+let caterpieCandy = whenToEvolve(1, 7)
 
 let totalCandies = bulbasaurCandy + weedleCandy + caterpieCandy
 
@@ -26,8 +26,25 @@ console.log(totalCandies)
 //You have a charmander in your party. Charmander can only battle if the temperature is above 0 degrees celcius. Create one function that converts a Fahrenheit value to Celcius and another fuction that tells you wheither or not charmander can battle
 
 function fahrenheitToCelcius(num) {
-    let temp = num
+    let temp = (num - 32) * 5 / 9
+    if( temp > 0) {
+        return 'Charmander can fight today'
+    } else {
+        return 'Too cold for Charmander to fight, good luck'
+    }
 }
+
+console.log(fahrenheitToCelcius(33))
 
 //Loops
 //You have joined an undeground pokemon leauge. In this league, trainers can use any number of pokemon. Print to the console "Pikachu I choose you" x times where x is the number of pokemon the trainer you are battling has in their party
+
+function pikachu(choose) {
+    let chosen = ''
+    for( let i = 0; i < choose; i++){
+        chosen += "Pikachu I choose you "
+    }
+    return chosen
+}
+
+console.log(pikachu(5))
