@@ -25,16 +25,16 @@ console.log(totalCandies)
 //Conditionals And Functions
 //You have a charmander in your party. Charmander can only battle if the temperature is above 0 degrees celcius. Create one function that converts a Fahrenheit value to Celcius and another fuction that tells you wheither or not charmander can battle
 
-function fahrenheitToCelcius(num) {
-    let temp = (num - 32) * 5 / 9
-    if( temp > 0) {
-        return 'Charmander can fight today'
-    } else {
-        return 'Too cold for Charmander to fight, good luck'
-    }
-}
+// function fahrenheitToCelcius(num) {
+//     let temp = (num - 32) * 5 / 9
+//     if( temp > 0) {
+//         return 'Charmander can fight today'
+//     } else {
+//         return 'Too cold for Charmander to fight, good luck'
+//     }
+// }
 
-console.log(fahrenheitToCelcius(33))
+// console.log(fahrenheitToCelcius(33))
 
 function changeToCelsius(temperature) {
     let convertedToCel = (temperature - 32) * 5/9
