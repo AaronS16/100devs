@@ -13,7 +13,7 @@ function checkAGreaterThanB(a, b) {
     return a.reduce( (prev, cur) => prev + cur **2, 0) > b.reduce( (prev, cur) => prev + cur **3, 0)
 }
 
-console.log(checkAGreaterThanB([2,2,2][2,2,2]))
+console.log(checkAGreaterThanB([2,2,2],[2,2,2]))
 
 //Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
 // Some cases:
