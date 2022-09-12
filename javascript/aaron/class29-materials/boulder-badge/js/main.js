@@ -3,7 +3,7 @@
 and weedle which is at level 1 and evolves at level 7. Create three variables to store the number of rare candies each of your pokemon would need to evolve (rare candies increase your level by one). Finally, create a fourth variable named totalCandies that 
 sums all the rare candies you would need. */
 
-function evolve (level, evolve) {
+function whenToEvolve (level, evolve) {
  let evolved = 0
 for(let i = level; i < evolve; i++) {
     evolved += 1
