@@ -10,7 +10,7 @@ reverseList(['charmander', 'pikachu', 'bulbasaur'])
 //Given two integer arrays a, b, both of length >= 1, create a program that returns true if the sum of the squares of each element in a is strictly greater than the sum of the cubes of each element in b.
 
 function checkAGreaterThanB(a, b) {
-    return a.reduce( (prev, cur) => prev + cur**2, 0) > b.reduce( (prev, cur) => prev + cur**3, 0)
+    return a.reduce( (prev, cur) => prev + cur **2, 0) > b.reduce( (prev, cur) => prev + cur **3, 0)
 }
 
 console.log(checkAGreaterThanB([2,2,2][2,2,2]))
