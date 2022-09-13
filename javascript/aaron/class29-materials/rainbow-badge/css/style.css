@@ -15,6 +15,12 @@ img{
   margin: 0 auto;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
