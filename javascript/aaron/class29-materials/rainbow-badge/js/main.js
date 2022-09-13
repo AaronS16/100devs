@@ -12,7 +12,7 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-  
+        
         pokeStore.push(data.types[0].type.name)
         pokeImg.push(data.sprites.front_shiny)
         
@@ -22,13 +22,20 @@ function getFetch(){
 
           pokeStore.push(data.types[0].type.name)
           pokeImg.push(data.sprites.front_shiny)
+          document.querySelector('#pokeImg1').src = pokeImg[0]
+          document.querySelector('#pokeImg2').src = pokeImg[1]
       
-          if((pokeStore[0] === "grass" && pokeStore[1] === 'water')){
+          if((pokeStore[0] === "fire" && pokeStore[1] === 'grass')){
             document.querySelector('#pokeImg1').src = pokeImg[0]
-            document.querySelector('#pokeImg2').src = pokeImg[1]
-            document.querySelector('h2').innerText = " 2x > "
+            document.querySelector('h2').innerText = "The winner"
+          }
+          if((pokeStore[0] === "grass" && pokeStore[1] === 'fire')){
+            document.querySelector('#pokeImg1').src = pokeImg[1]
+            document.querySelector('h2').innerText = "The winner"
           }
         })
+
+        
         .catch(err => {
             console.log(`error ${err}`)
         });
