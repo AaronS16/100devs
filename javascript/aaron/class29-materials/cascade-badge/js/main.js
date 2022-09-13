@@ -21,6 +21,12 @@ console.log(checkAGreaterThanB([2,2,2],[2,2,2]))
 // [68, -1, 1, -7, 10, 10] => [-1, 10]
 
 
+function returnMultiples(a) {
+    return a.filter( (el, i) => el % i === 0)
+}
+
+console.log(returnMultiples([22, -6, 32, 82, 9, 25]))
+
 
 //Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.Return your answer as a number.
 
