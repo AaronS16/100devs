@@ -25,3 +25,5 @@ function isMultiple(arr){
 function sumArrayValues(arr){
     return arr.reduce((acc, c) => acc + Number(c), 0)
 }
+
+// 
