@@ -7,6 +7,13 @@ class Dog{
     describe() {
         console.log(`${this.name} is a ${this.species} dog measuring ${this.size}`);
     }
+    bark() {
+        if (this.size > 60) {
+            return 'Grrr! Grrr!'
+        } else {
+            return "Woof! Woof!"
+        }
+    }
     cat() {
         console.log(`Look, a cat! ${this.name} barks: ${this.bark()}`);
     }
