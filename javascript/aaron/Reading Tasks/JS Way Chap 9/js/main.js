@@ -1,3 +1,5 @@
+//Dogs
+
 class Dog{
     constructor(name, species, size){
         this.name = name;
@@ -22,3 +24,5 @@ class Dog{
 const fang = new Dog("Fang", "boarhound", 75);
 
 const snowy = new Dog("Snowy", "terrier", 22);
+
+//Character Inventory
