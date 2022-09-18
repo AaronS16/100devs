@@ -209,4 +209,7 @@ const rentalCarCost = (d) => {
     return 40 * d - (d > 6 ? 50 : d > 2 ? 20 : 0)
      } 
 
-     
+     function firstNonConsecutive (arr) {
+        let fnc = arr.find((x,y) => x !==  y + arr[0])
+        return Number.isInteger(fnc)  ? fnc : null 
+      }
