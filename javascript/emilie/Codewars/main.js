@@ -195,3 +195,12 @@
 //     //       }
 
 // const smallEnough= (a, limit) => a <= limit ? 'true' :'false'
+
+function howMuchILoveYou(nbPetals) {
+    return ['not at all','I love you','a little','a lot','passionately','madly'][nbPetals % 6]
+   }
+
+
+function whichHouse(n){
+    return ['1','2','3','4','5','6'][n % 6]
+}
