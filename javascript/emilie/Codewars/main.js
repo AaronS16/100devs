@@ -204,3 +204,9 @@ function howMuchILoveYou(nbPetals) {
 function whichHouse(n){
     return ['1','2','3','4','5','6'][n % 6]
 }
+
+const rentalCarCost = (d) => {
+    return 40 * d - (d > 6 ? 50 : d > 2 ? 20 : 0)
+     } 
+
+     
