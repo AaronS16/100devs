@@ -195,3 +195,21 @@
 //     //       }
 
 // const smallEnough= (a, limit) => a <= limit ? 'true' :'false'
+
+function howMuchILoveYou(nbPetals) {
+    return ['not at all','I love you','a little','a lot','passionately','madly'][nbPetals % 6]
+   }
+
+
+function whichHouse(n){
+    return ['1','2','3','4','5','6'][n % 6]
+}
+
+const rentalCarCost = (d) => {
+    return 40 * d - (d > 6 ? 50 : d > 2 ? 20 : 0)
+     } 
+
+     function firstNonConsecutive (arr) {
+        let fnc = arr.find((x,y) => x !==  y + arr[0])
+        return Number.isInteger(fnc)  ? fnc : null 
+      }
