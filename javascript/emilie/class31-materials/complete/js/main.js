@@ -10,6 +10,15 @@ class Animal{
     }
 }
 
+class Dog extends Animal{
+    constructor(name,breed){
+        super(name)
+        this._breed = breed
+    }
+    get bread(){
+        return this._breed
+}
+
 
 
 
