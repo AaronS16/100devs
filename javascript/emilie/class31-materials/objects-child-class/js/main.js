@@ -22,6 +22,7 @@ class Dog extends Animal {
 let oakley = new Dog('Oakley','husky','4')
 let cali = new Dog('cali', 'sheperd')
 
+
 class cat extends Animal{
     constructor(name,breed){
         super(name)
