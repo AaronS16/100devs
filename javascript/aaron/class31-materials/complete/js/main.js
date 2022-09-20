@@ -31,7 +31,7 @@ class Cat extends Animal{
         return this._breed
     }
     speak(){
-        // super.speak()
+        super.speak()
         console.log(`${this.name} meows`)
     }    
 }
@@ -54,5 +54,6 @@ let dumbo = new Elephant('Dumbo', 'Brown')
 let farm = [simba,machi,salem]
 
 for( a of farm ){
+    console.log(a.name)
     a.speak()
 }
