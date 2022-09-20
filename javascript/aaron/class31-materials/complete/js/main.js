@@ -35,10 +35,20 @@ class Cat extends Animal{
         console.log(`${this.name} meows`)
     }    
 }
+class Elephant extends Animal{
+    constructor(name, color) {
+        super(name)
+        this.color = color
+    }
+    showColor() {
+        console.log(`${this.name} is ${this.color}`)
+    }
+}
 
 let simba = new Dog('Simba','Shepard')
 let machi = new Dog('The Machine','Pitbull')
 let salem = new Cat('Salem', 'American Shorthair')
+let dumbo = new Elephant('Dumbo', 'Brown')
 
 let farm = [simba,machi,salem]
 
