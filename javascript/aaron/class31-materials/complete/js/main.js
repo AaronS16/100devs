@@ -31,19 +31,20 @@ class Cat extends Animal{
         return this._breed
     }
     speak(){
-        super.speak()
+        // super.speak()
         console.log(`${this.name} meows`)
     }    
 }
 class Elephant extends Animal{
     constructor(name, color) {
         super(name)
-        this.color = color
+        this._color = color
     }
-    showColor() {
-        console.log(`${this.name} is ${this.color}`)
+    get color() {
+        return this._color
     }
 }
+
 
 let simba = new Dog('Simba','Shepard')
 let machi = new Dog('The Machine','Pitbull')
