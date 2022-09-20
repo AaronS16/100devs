@@ -41,7 +41,7 @@ class Elephant extends Animal{
         this._color = color
     }
     get color() {
-        return this._color
+        console.log(`Dumbo is ${this._color}`)
     }
 }
 
@@ -51,9 +51,10 @@ let machi = new Dog('The Machine','Pitbull')
 let salem = new Cat('Salem', 'American Shorthair')
 let dumbo = new Elephant('Dumbo', 'Brown')
 
-let farm = [simba,machi,salem]
+let farm = [simba,machi,salem, dumbo]
 
 for( a of farm ){
     console.log(a.name)
     a.speak()
+    a.color
 }
