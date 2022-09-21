@@ -51,3 +51,45 @@
 // }
 
 
+class Contractor {
+    constructor(name, role) {
+        this._name = name
+        this._role = role
+    }
+    get name(){
+        console.log(`${this._name}`)
+    }
+    get role() {
+        console.log(`${this._name} is a ${this._role}`)
+    }
+    sayHello() {
+        console.log(`Hello, I am on the ${this._role} at #100 devs`)
+    }
+}
+class Front extends Contractor {
+    constructor(name, role, tech){
+        super(name, role)
+        this._tech = tech
+    }
+    get tech() {
+        console.log(`${this._tech}`)
+    }
+    sayHello(){
+        console.log(`Hello, I am on the ${this._role} team at #100Devs and I use ${this._tech}`)
+    }
+}
+class Back extends Contractor{
+    constructor(name, role, tech){
+        super(name, role)
+        this._tech = tech
+    }
+    get tech(){
+        console.log(`${this._tech}`)
+    }
+    sayHello(){
+        console.log(`Hello, I am on the ${this._role} team at #100devs and I use ${this._tech}`)
+    }
+}
+
+let aaron = new Front('Aaron', "Front End Developer", 'Javascript')
+let emilie = new Back('Emilie', 'Back End Developer', 'Javascript')
