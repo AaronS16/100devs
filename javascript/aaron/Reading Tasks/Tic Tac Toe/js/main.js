@@ -11,4 +11,11 @@ const winConditions = [
     [0, 4, 8],
     [2, 4, 6],
 
-]
+];
+
+let options = ['', '', '', '', '', '', '', '', ''];
+let currentPlayer = 'X';
+let running = false; 
+
+initializeGame(); 
+
