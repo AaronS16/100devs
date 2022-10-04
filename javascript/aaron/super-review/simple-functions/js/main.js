@@ -23,7 +23,7 @@ function multiplyNum(a, b, c){
 sum of the first two numbers by the third number */
 
 function divideFirthNums(a, b, c){
-    console.log( (a + b) / c) 
+    console.log( (a + b) % c) 
 }
 
 //---Hard
