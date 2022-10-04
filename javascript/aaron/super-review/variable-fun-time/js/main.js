@@ -1,7 +1,7 @@
 //--- Easy
 //create a variable and assign it a number
 
-const num = 4;
+let num = 4;
 
 //minus 10 from that number
 
@@ -14,15 +14,15 @@ console.log(num)
 //--- Medium
 //create a variable that holds a value from the input
 
-let val = document.querySelector('#danceDanceRevolution').value
+let numb = Number(document.querySelector('#danceDanceRevolution').value)
 
 //add 25 to that number
 
-val += 25
+numb += 25
 
 //alert that number
 
-alert(val)
+alert(numb)
 
 //--- Hard
 //create a variable that holds the h1
