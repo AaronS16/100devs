@@ -23,16 +23,16 @@ function ageChecker() {
     let age = Number(document.querySelector('#danceDanceRevolution').value)
 
     if(age < 16){
-        document.querySelector('h1').innerText = 'You can not drive'
+        document.querySelector('p').innerText = 'You can not drive'
     } else if (age < 18) {
-        document.querySelector('h1').innerText = "You can't hate from outside the club, because they can't even get in"
+        document.querySelector('p').innerText = "You can't hate from outside the club, because they can't even get in"
     } else if( age < 21){
-        document.querySelector('h1').innerText = 'You can not drink'
+        document.querySelector('p').innerText = 'You can not drink'
     } else if( age < 25){
-        document.querySelector('h1').innerText = 'You can not rent cars affordably'
+        document.querySelector('p').innerText = 'You can not rent cars affordably'
     }else if ( age < 30) {
-        document.querySelector('h1').innerText = 'You can not rent fancy cars affordably'
+        document.querySelector('p').innerText = 'You can not rent fancy cars affordably'
     }else {
-        document.querySelector('h1').innerText = 'There is nothing left to look forward too'
+        document.querySelector('p').innerText = 'There is nothing left to look forward too'
     }
 }
