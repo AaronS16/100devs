@@ -21,5 +21,5 @@ function claireNext(){
 function sharleenNext(){
 	andi.classList.add('hidden')
 	claire.classList.add('hidden')
-	/sharleen.classList.toggle('hidden')
+	sharleen.classList.toggle('hidden')
 }
