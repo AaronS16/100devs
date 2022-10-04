@@ -14,11 +14,19 @@ console.log(num)
 //--- Medium
 //create a variable that holds a value from the input
 
+let val = document.querySelector('#danceDanceRevolution').value
+
 //add 25 to that number
+
+val += 25
 
 //alert that number
 
+alert(val)
+
 //--- Hard
 //create a variable that holds the h1
+
+
 
 //add an event listener to that element that console logs the sum of the two previous variables
