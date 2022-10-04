@@ -14,15 +14,11 @@ console.log(num)
 //--- Medium
 //create a variable that holds a value from the input
 
-// let numb = Number(document.querySelector('#danceDanceRevolution').value)
 
 //add 25 to that number
 
-// numb += 25
 
 //alert that number
-
-// alert(numb)
 
 document.querySelector('button').addEventListener('click', addNum)
 
