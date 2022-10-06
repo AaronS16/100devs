@@ -49,6 +49,8 @@ function divisibleBy3(num1, num2, num3) {
     }
 }
 
+divisibleBy3(2,7,2)
+
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
 
