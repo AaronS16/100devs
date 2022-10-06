@@ -29,6 +29,16 @@ div4Nums(12, 5)
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
 
+function add2Nums(num1, num2) {
+    if(num1 + num2 > 50) {
+        alert('Jumanji')
+    } else {
+        alert('Not larger than 50')
+    }
+}
+
+add2Nums(30, 25)
+
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 
 //*Loops*
