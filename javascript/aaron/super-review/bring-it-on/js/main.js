@@ -1,6 +1,8 @@
 // *Variables*
 // Create a variable and console log the value
 
+
+
 // Create a variable, add 10 to it, and alert the value
 
 // *Functions*
