@@ -5,6 +5,10 @@ const dog = 'Oakley';
 
 // Create a variable, add 10 to it, and alert the value
 
+const num = 1;
+
+num += 10;
+
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
 
