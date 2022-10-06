@@ -51,3 +51,13 @@ function divisibleBy3(num1, num2, num3) {
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+
+function wordXTimes(str, num){
+    let answer = ''
+    for(let i = 0; i < num; i++){
+        answer += str
+    }
+    console.log(answer)
+}
+
+wordXTimes('test', 5)
