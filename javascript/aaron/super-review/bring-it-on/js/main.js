@@ -1,7 +1,7 @@
 // *Variables*
 // Create a variable and console log the value
 
-
+const dog = 'Oakley';
 
 // Create a variable, add 10 to it, and alert the value
 
