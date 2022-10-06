@@ -57,7 +57,7 @@ function wordXTimes(str, num){
     for(let i = 0; i < num; i++){
         answer += str
     }
-    console.log(answer)
+    return answer
 }
 
-wordXTimes('test', 5)
+console.log(wordXTimes('test ', 5))
