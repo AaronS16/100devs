@@ -1,13 +1,13 @@
 //Create a street fighter constructor that makes fighting game characters with 4 properties and 3 methods
 
 
-function Fighter(name, fightStyle, health, damagePerAttack){
+function Fighter(name, fightStyle, health, specialMove){
     this.name = name,
     this.fightStyle = fightStyle,
     this.health = health,
-    this.damagePerAttack = damagePerAttack
+    this.specialMove = specialMove
 
-    this.specialAttack = function(){
+    this.attackck = function(){
         console.log('Super punch')
     }
 
@@ -20,4 +20,4 @@ function Fighter(name, fightStyle, health, damagePerAttack){
     }
 }
 
-let emilie = new Fighter('Emilie', 'Kung Fu', '50', '2')
+let emilie = new Fighter('Emilie', 'Kung Fu', '50', 'Flaming Dragon')
