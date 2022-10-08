@@ -20,4 +20,4 @@ function Fighter(name, fightStyle, health, specialMove){
     }
 }
 
-let emilie = new Fighter('Emilie', 'Kung Fu', '50', 'Flaming Dragon')
+let emilie = new Fighter('Emilie', 'Kung Fu', 50, 'Flaming Dragon')
