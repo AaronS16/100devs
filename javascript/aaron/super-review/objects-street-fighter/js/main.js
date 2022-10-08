@@ -7,7 +7,7 @@ function Fighter(name, fightStyle, health, specialMove){
     this.health = health,
     this.specialMove = specialMove
 
-    this.attackck = function(){
+    this.attack = function(){
         console.log('Super punch')
     }
 
