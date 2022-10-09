@@ -27,11 +27,11 @@ function takeFour(a,b,c,d){
     let multiply = a * b * c 
     let product = a * b
     if(product > 100){
-        console.log(a + b)
+        console.log(product + c + d)
     } else if(product < 100) {
-        console.log(c-d)
+        console.log(product - c-d)
     } else{
-        alert(multiply / d )
+        alert(multiply % d )
     }
-
 }
+takeFour(5,4,3,2)
