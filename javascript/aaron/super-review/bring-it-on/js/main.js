@@ -63,4 +63,3 @@ function wordXTimes(str, num){
 }
 
 console.log(wordXTimes('test ', 5))
-
