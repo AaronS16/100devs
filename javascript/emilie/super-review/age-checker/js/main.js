@@ -11,3 +11,21 @@
 //On click of the h1
 //Take the value from the input
 //Place the result of the conditional in the paragraph
+ document.querySelector('h1').addEventListener('click', checkAge)
+ const p = document.querySelector('p')
+ function checkAge(){
+    let n = Number(document.querySelector('input').value)
+    if(n < 16){
+        p.innerText=`You can't drive`
+    } else if (n < 18){
+        p.innerText=`You can't hate from outside the club, because they can't even get in`
+    } else if(n < 21){
+        p.innerText=`You can not drink`  
+    } else if(n < 25){
+        p.innerText=`You can not rent cars affordably` 
+    } else if(n < 30){
+        p.innerText=`You can not rent fancy cars affordably` 
+    } else {
+        p.innerText=`There is nothing left to look forward too` 
+    }
+}
