@@ -65,7 +65,7 @@ class Contractor {
     sayHello() {
         console.log(`Hello, I am on the ${this._role} at #100 devs`)
     }
-}
+} 
 class Front extends Contractor {
     constructor(name, role, tech){
         super(name, role)
@@ -75,7 +75,7 @@ class Front extends Contractor {
         console.log(`${this._tech}`)
     }
     sayHello(){
-        console.log(`Hello, I am on the ${this._role} team at #100Devs and I use ${this._tech}`)
+        console.log(`Hello, I am ${this._name} on the ${this._role} team at #100Devs and I use ${this._tech}`)
     }
 }
 class Back extends Contractor{
@@ -87,9 +87,24 @@ class Back extends Contractor{
         console.log(`${this._tech}`)
     }
     sayHello(){
-        console.log(`Hello, I am on the ${this._role} team at #100devs and I use ${this._tech}`)
+        console.log(`Hello, I am ${this._name} on the ${this._role} team at #100devs and I use ${this._tech}`)
     }
 }
 
+class Test extends Front{
+    constructor(name, role, tech, job){
+        super(name, role, tech)
+        this._job = job
+    }
+}
+
+
 let aaron = new Front('Aaron', "Front End Developer", 'Javascript')
 let emilie = new Back('Emilie', 'Back End Developer', 'Javascript')
+let tester = new Test('Nathan', 'TechII', 'Javascript', 'Coder')
+
+let agencyList = [aaron, emilie, tester]
+
+for(person of agencyList) {
+    person.sayHello()
+}
