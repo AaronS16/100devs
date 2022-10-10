@@ -101,6 +101,7 @@ class Test extends Front{
 
 let aaron = new Front('Aaron', "Front End Developer", 'Javascript')
 let emilie = new Back('Emilie', 'Back End Developer', 'Javascript')
+let tester = new Test('Nathan', 'TechII', 'Coder')
 
 let agencyList = [aaron, emilie]
 
