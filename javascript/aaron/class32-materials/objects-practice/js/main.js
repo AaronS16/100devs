@@ -95,3 +95,7 @@ let aaron = new Front('Aaron', "Front End Developer", 'Javascript')
 let emilie = new Back('Emilie', 'Back End Developer', 'Javascript')
 
 let agencyList = [aaron, emilie]
+
+for(person of agencyList) {
+    person.sayHello()
+}
