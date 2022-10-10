@@ -65,7 +65,7 @@ class Contractor {
     sayHello() {
         console.log(`Hello, I am on the ${this._role} at #100 devs`)
     }
-}
+} 
 class Front extends Contractor {
     constructor(name, role, tech){
         super(name, role)
