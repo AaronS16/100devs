@@ -91,6 +91,14 @@ class Back extends Contractor{
     }
 }
 
+class Test extends Front{
+    constructor(name, role, job){
+        super(name, role)
+        this._job = job
+    }
+}
+
+
 let aaron = new Front('Aaron', "Front End Developer", 'Javascript')
 let emilie = new Back('Emilie', 'Back End Developer', 'Javascript')
 
