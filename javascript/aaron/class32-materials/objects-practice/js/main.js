@@ -75,7 +75,7 @@ class Front extends Contractor {
         console.log(`${this._tech}`)
     }
     sayHello(){
-        console.log(`Hello, I am on the ${this._role} team at #100Devs and I use ${this._tech}`)
+        console.log(`Hello, I am ${this._name} on the ${this._role} team at #100Devs and I use ${this._tech}`)
     }
 }
 class Back extends Contractor{
