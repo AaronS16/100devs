@@ -92,8 +92,8 @@ class Back extends Contractor{
 }
 
 class Test extends Front{
-    constructor(name, role, job){
-        super(name, role)
+    constructor(name, role, tech, job){
+        super(name, role, tech)
         this._job = job
     }
 }
@@ -101,9 +101,9 @@ class Test extends Front{
 
 let aaron = new Front('Aaron', "Front End Developer", 'Javascript')
 let emilie = new Back('Emilie', 'Back End Developer', 'Javascript')
-let tester = new Test('Nathan', 'TechII', 'Coder')
+let tester = new Test('Nathan', 'TechII', 'Javascript', 'Coder')
 
-let agencyList = [aaron, emilie]
+let agencyList = [aaron, emilie, tester]
 
 for(person of agencyList) {
     person.sayHello()
