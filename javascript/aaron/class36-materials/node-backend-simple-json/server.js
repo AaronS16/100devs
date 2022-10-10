@@ -5,29 +5,44 @@ const querystring = require('querystring');
 const figlet = require('figlet')
 
 const server = http.createServer((req, res) => {
+
+  const readWrite = (file, contentType) => {
+  fs.readFile(file, function(err, data) {
+    res.writeHead(200, {'Content-Type': contentType});
+    res.write(data);
+    res.end();
+  })
+  }
+
   const page = url.parse(req.url).pathname;
   const params = querystring.parse(url.parse(req.url).query);
   console.log(page);
   if (page == '/') {
-    fs.readFile('index.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
+
+    readWrite('index.html', 'text/html')
+    // fs.readFile('index.html', function(err, data) {
+    //   res.writeHead(200, {'Content-Type': 'text/html'});
+    //   res.write(data);
+    //   res.end();
+    // });
   }
   else if (page == '/otherpage') {
-    fs.readFile('otherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
+
+    readWrite('otherpage.html', 'text/html')
+    // fs.readFile('otherpage.html', function(err, data) {
+    //   res.writeHead(200, {'Content-Type': 'text/html'});
+    //   res.write(data);
+    //   res.end();
+    // });
   } 
   else if (page == '/otherotherpage') {
-    fs.readFile('otherotherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
+
+    readWrite('otherotherpage.html', 'text/html')
+    // fs.readFile('otherotherpage.html', function(err, data) {
+    //   res.writeHead(200, {'Content-Type': 'text/html'});
+    //   res.write(data);
+    //   res.end();
+    // });
   }
   else if (page == '/api') {
     if('student' in params){
