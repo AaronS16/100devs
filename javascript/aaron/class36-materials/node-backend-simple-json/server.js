@@ -33,9 +33,7 @@ const server = http.createServer((req, res) => {
       break;
 
     case '/api' :
-      let personName = 'unknown',
-        personOccupation = 'unknown',
-        personStatus = 'unknown'
+      
       if(params['student']== 'leon'){
         personName = 'leon'
         personOccupation = 'Boss Man'
