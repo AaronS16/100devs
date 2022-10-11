@@ -17,6 +17,15 @@ const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
   const params = querystring.parse(url.parse(req.url).query);
   console.log(page);
+
+  switch (page) {
+    
+    case '/':
+      readWrite('index.html', 'text/html')
+      break;
+    
+    
+  }
   if (page == '/') {
 
     readWrite('index.html', 'text/html')
