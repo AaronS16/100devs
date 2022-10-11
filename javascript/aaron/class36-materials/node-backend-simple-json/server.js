@@ -63,7 +63,6 @@ const server = http.createServer((req, res) => {
       //     currentOccupation: "unknown"
       //   }
       //   res.end(JSON.stringify(objToJson));
-      // }//student != leon
     }//student if
   }//else if
   else if (page == '/css/style.css'){
