@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
     // });
   }
   else if (page == '/api') {
-    if('student' in params){
+    // if('student' in params){
       let personName = 'unknown',
         personOccupation = 'unknown',
         personStatus = 'unknown'
@@ -61,7 +61,7 @@ const server = http.createServer((req, res) => {
           currentOccupation: personOccupation
         }
         res.end(JSON.stringify(objToJson));
-      }//student = leon
+      // }//student = leon
       // else if(params['student'] != 'leon'){
       //   res.writeHead(200, {'Content-Type': 'application/json'});
       //   const objToJson = {
