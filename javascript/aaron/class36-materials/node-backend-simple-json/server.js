@@ -61,25 +61,17 @@ const server = http.createServer((req, res) => {
         readWrite('js/main.js', 'text/javascript')
         break;
 
-      
-  }
-  {
-    
-  else if (page == '/js/main.js'){
-
-    readWrite('js/main.js', 'text/javascript')
-
-    
-  }else{
-    figlet('404!!', function(err, data) {
-      if (err) {
-          console.log('Something went wrong...');
-          console.dir(err);
-          return;
-      }
-      res.write(data);
-      res.end();
-    });
+      default:
+      figlet('404!!', function(err, data) {
+        if (err) {
+            console.log('Something went wrong...');
+            console.dir(err);
+            return;
+        }
+        res.write(data);
+        res.end();
+      });
+      break;
   }
 });
 
