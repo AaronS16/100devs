@@ -46,10 +46,11 @@ const server = http.createServer((req, res) => {
   }
   else if (page == '/api') {
     if('student' in params){
-      if(params['student']== 'leon'){
-        let personName = 'unknown',
+      let personName = 'unknown',
         personOccupation = 'unknown',
-        personstatus = 'unknown'
+        personStatus = 'unknown'
+      if(params['student']== 'leon'){
+        
       }
         res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
