@@ -36,3 +36,4 @@ function ageChecker() {
         document.querySelector('p').innerText = 'There is nothing left to look forward too'
     }
 }
+
