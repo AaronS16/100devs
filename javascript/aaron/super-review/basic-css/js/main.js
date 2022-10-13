@@ -6,4 +6,4 @@ function nbDig(n, d) {
     return answer.split(d).length - 1
   }
 
-  console.log(nbDig(5750,0))
+  console.log(nbDig(11011,2))
