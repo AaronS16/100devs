@@ -46,3 +46,5 @@ function checkAge () {
     else alert(`Since you are ${input} there is nothing left for you in life`)
 }
 
+
+
