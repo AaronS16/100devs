@@ -4,7 +4,12 @@
 function inAscOrder(arr) {
   
     let inOrder = [arr.toString().split(' ').join('')]
-    let order = inOrder.map(el => +el)
+    let order = [];
+    
+    inOrder.forEach(el => {
+        order.push(Number(el));
+    })
+
     console.log(order)
     console.log(inOrder)
     console.log(arr)
