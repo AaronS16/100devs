@@ -3,7 +3,9 @@
 
 function inAscOrder(arr) {
   
-    let inOrder = arr.toString().split(' ').sort((a,b) => a - b).join('')
+    let inOrder = [arr.toString().split(' ').join('')]
+    let order = inOrder.map(el => +el)
+    console.log(order)
     console.log(inOrder)
     console.log(arr)
     if(inOrder == arr) {
@@ -16,3 +18,6 @@ function inAscOrder(arr) {
 
 
   console.log(inAscOrder([1, 6, 10, 18, 2, 4, 20]))
+
+
+  .sort((a,b) => a - b)
