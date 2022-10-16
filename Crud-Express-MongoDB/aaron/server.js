@@ -15,13 +15,15 @@ MongoClient.connect(connectionString, { useUnifiedTopology:
     true })
     .then(client => {
         const db = client.db('star-wars-quotes')
-        app.use(/* ... */)
-        app.get(/* ... */)
-        app.post(/* ... */)
-        app.listen(/* ... */)
-        console.log('Connected to Database')
-        
-    })
+        const quotesCollection = db.collection('quotes')
+        app.post('/quotes', (req, res) => {
+            quotesCollection.collection.insertOne(req.body)
+            .then(result => {
+                console.log(result)
+            })
+        }
+
+    )
     .catch(error => console.log(error))
 
 
