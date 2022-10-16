@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser')
-const app = express();
 const MongoClient = require('mongodb').MongoClient
+const app = express();
 
 app.listen(3000, function() {
     console.log('listening on 3000')
@@ -40,9 +40,9 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
         quotesCollection.findOneAndUpdate(
             {name: 'Yoda'},
             {
-            $set: {
-                name: req.body.name,
-                quote: req.body.quote
+                $set: {
+                    name: req.body.name,
+                    quote: req.body.quote
             }
         },
         {
@@ -52,5 +52,5 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
         .then(result => res.json('Success'))
         .catch(error => console.error(error))
     })
-    
+
 })
