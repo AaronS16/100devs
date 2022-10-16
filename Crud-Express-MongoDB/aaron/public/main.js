@@ -1,5 +1,6 @@
 const update = document.querySelector('#update-button')
 const deleteButon = document.querySelector('#delete-button')
+const messageDiv = document.querySelector('#message')
 
 update.addEventListener('click', _ => {
     fetch('/quotes', {
@@ -26,10 +27,14 @@ deleteButon.addEventListener('click', _ => {
             name: 'Darth Vader'
         })
     })
-    ,then(res => {
+    .then(res => {
         if (res.ok) return res.json()
     })
-    .then (data => {
-        windows.location.reload()
+    .then (response => {
+        if (response === 'No quote to delete') {
+            MessageChannelDiv.textContent = 'No Darth Vader Quote to delete'
+        } else {
+            window.localStorage.reload(true)
+        }
     })
 })
