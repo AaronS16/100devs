@@ -17,7 +17,7 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
 
         app.set('view engine', 'ejs')
         app.use(bodyParser.urlencoded({ extended: true }))
-        
+        app.use(bodyParser.json())
         app.use(express.static('public'))
 
         app.get('/', (req, res) => {
@@ -28,12 +28,15 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
                 .catch(error => console.error(error))
         })
 
-
         app.post('/quotes', (req, res) => {
             quotesCollection.insertOne(req.body)
                 .then(result => {
                     res.redirect('/')
                 })
         .catch(error => console.error(error))
+    })
+
+    app.put('/quotes', (req, res) => {
+        console.log(req.body)
     })
 })
