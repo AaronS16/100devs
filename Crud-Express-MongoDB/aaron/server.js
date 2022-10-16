@@ -7,8 +7,6 @@ app.listen(3000, function() {
     console.log('listening on 3000')
 })
 
-app.use(bodyParser.urlencoded({ extended: true }))
-
 const connectionString = `mongodb+srv://as:Br0C0d380@atlascluster.5jxxjqi.mongodb.net/?retryWrites=true&w=majority;`;
 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
@@ -18,12 +16,14 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
         const quotesCollection = db.collection('quotes')
 
         app.set('view engine', 'ejs')
+        app.use(bodyParser.urlencoded({ extended: true }))
 
         app.get('/', (req, res) => {
             db.collection('quotes').find().toArray()
-                .then(results => {
-                    console.log(results)
+                .then(quotes => {
+                    res.render('index.ejs', { quotes: quotes })
                 })
+                .catch(error => console.error(error))
         })
 
 
