@@ -64,12 +64,5 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
             res.json(`Deleted Darth Vader's quote`)
         })
         .catch(error => console.error(error))
-    })
-
-    const isProduction = process.env.NODE_ENV === 'production'
-    const port = isProduction ? 7500 : 3000
-    app.listen(port, function () {
-      console.log(`listening on ${port}`)
-    })
+    })  
 })
-  .catch(console.error)
