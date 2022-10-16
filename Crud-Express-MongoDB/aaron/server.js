@@ -9,12 +9,15 @@ app.listen(3000, function() {
 
 app.use(bodyParser.urlencoded({ extended: true }))
 
-const connectionString = mongodb+srv://as:<Br0C0d380>@atlascluster.5jxxjqi.mongodb.net/?retryWrites=true&w=majority;
+const connectionString = `mongodb+srv://as:Br0C0d380@atlascluster.5jxxjqi.mongodb.net/?retryWrites=true&w=majority;`
 
-MongoClient.connect(connectionString, (err, client) => {
-    if (err) return console.error(err)
-    console.log('Connected to Database')
-})
+MongoClient.connect(connectionString, { useUnifiedTopology:
+    true })
+    .then(client => {
+        console.log('Connected to Database')
+    })
+    .catch(error => console.log(error))
+
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
