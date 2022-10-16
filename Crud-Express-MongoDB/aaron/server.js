@@ -14,8 +14,13 @@ const connectionString = `mongodb+srv://as:Br0C0d380@atlascluster.5jxxjqi.mongod
 MongoClient.connect(connectionString, { useUnifiedTopology:
     true })
     .then(client => {
-        console.log('Connected to Database')
         const db = client.db('star-wars-quotes')
+        app.use(/* ... */)
+        app.get(/* ... */)
+        app.post(/* ... */)
+        app.listen(/* ... */)
+        console.log('Connected to Database')
+        
     })
     .catch(error => console.log(error))
 
