@@ -22,7 +22,7 @@
 
 function sumOfDifferences(arr) {
     arr.sort((a,b) => a > b ? -1 : 1)
-    return Number(arr.length > 0 ? (arr[0] - arr[1]) + (arr[1] - arr[arr.length - 1]) : 0)
+    return arr.length > 0 ? (arr[0] - arr[1]) + (arr[1] - arr[arr.length - 1]) : 0
       
   }
 
