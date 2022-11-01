@@ -3,6 +3,12 @@ const bodyParser= require('body-parser')
 const express = require('express');
 const app = express();
 const MongoClient = require('mongodb').MongoClient
+const connectionString = 'mongodb+srv://codetime098:kdl00LSgVKcGuCMK@cluster0.qtpckaz.mongodb.net/?retryWrites=true&w=majority'
+
+MongoClient.connect(connectionString, (err, client) => {
+    if(err) return console.error(err)
+    console.log('Connected to Database')
+})
 
 app.use(bodyParser.urlencoded({extended: true }))
 
