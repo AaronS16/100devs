@@ -24,7 +24,6 @@ function houseThree(){
 }
 houseOne()
 houseTwo()
-
 houseThree()
 
 //Code 03
