@@ -9,9 +9,8 @@ const express = require("express")
 const app = express()
 const PORT = 8500;
 const mongoose = require("mongoose"); 
-const todotask = require("./models/todotask");
+const TodoTask = require('./models/todoTask');
 require('dotenv').config()
-const TodoTask = require('./models/TodoTask')
 
 // Set middleware 
 app.set("view engine", "ejs")
@@ -29,7 +28,7 @@ app.get('/', async (require,response) => {
          response.render('index.ejs', {todoTasks: tasks})   
         })
     } catch (err){
-
+        if(err) return response.status(500).send(err)
     }
 })
 
