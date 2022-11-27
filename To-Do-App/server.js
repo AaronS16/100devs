@@ -22,11 +22,9 @@ mongoose.connect(process.env.DB_CONNECTION,
     () => console.log('Connected to bd!')
 )
 
-app.get('/', async (require,response) => {
+app.get('/', async (request,response) => {
     try{
-        TodoTask.find({}, (err, tasks) => {
-         response.render('index.ejs', {todoTasks: tasks})   
-        })
+         response.render('index.ejs')  
     } catch (err){
         if(err) return response.status(500).send(err)
     }
