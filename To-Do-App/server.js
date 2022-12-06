@@ -21,14 +21,27 @@ mongoose.connect(process.env.DB_CONNECTION,
     {useNewUrlParser: true},
     () => console.log('Connected to bd!')
 )
-
-app.get('/', async (request,response) => {
-    try{
-         response.render('index.ejs')  
-    } catch (err){
-        if(err) return response.status(500).send(err)
+//GET METHOD 
+app.get("/", async (req, res) => {
+    try {
+        TodoTask.find({}, (err, tasks) => {
+            res.render("index.ejs", { todoTasks: tasks });
+        });
+    } catch (err) {
+        if (err) return res.status(500).send(err);
     }
+});
+//Post METHOD
+app.post('/', async(req,res) => {
+    const todoTask = new TodoTask(
+        {
+            title: req.body.title,
+            content: req.body.content
+        }
+    )
 })
+
+
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
 
