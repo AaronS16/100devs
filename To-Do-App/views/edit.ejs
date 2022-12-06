@@ -18,7 +18,7 @@
         <h2>Edit list Item</h2>
         <section class="todo">
             <ul class="todo-list">
-                <% todoTasks.forEach(task => { %>
+                <% todoTasks.forEach(task => {%>
                     <% if(task._id==idTask){ %>
                         <li class="todo-list-item">
                             <form action="/edit/<%= task._id %>" method="POST">
