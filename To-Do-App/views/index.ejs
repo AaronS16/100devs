@@ -25,7 +25,11 @@
                 <textarea rows="6" cols="45" name="content">content</textarea>
                 <button type="submit"><span class="fas fa-plus">Add Task </span></button>
             </form>
-
+            <ul class="todo-list">
+                <% todoTasks.forEach(content => {%>
+                <li class="todo-list-item"></li>
+                })
+            </ul>
         </section>
     </section>
 </body>
