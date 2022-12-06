@@ -53,7 +53,7 @@ app
     .get((req,res) => {
         const id = req.params.id;
         TodoTask.find({}, (err,tasks) => {
-            res.render("edit.ejs", { todoTasks:tasks, idTask: id });
+            res.render("edit.ejs", { todoTasks: tasks, idTask: id });
             });
         })
     .post((req,res) => {
@@ -80,7 +80,7 @@ app
         TodoTask.findByIdAndRemove(id,err => {
             if(err) return res.status(500).send(err)
             res.redirect('/')
-        })
+        });
     })
 
     
