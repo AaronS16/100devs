@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: burlywood;
+    font-family: 'Edu TAS Beginner', sans-serif;
+}
+
+.todo-container {
+    color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+
+}
