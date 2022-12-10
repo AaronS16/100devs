@@ -83,7 +83,24 @@ ul{
 }
 
 
+.todo-list-item form{
+    width: 100%;
+    display: flex;
+}
 
+.todo-list-item input {
+    flex-grow: 2;
+    margin-right: 20px;
+    border-radius: 5px;
+}
 
-
-
+.todo-list-item .confirm{
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    background-color: black;
+    margin-left: 5px;
+    max-height: 30px;
+}
