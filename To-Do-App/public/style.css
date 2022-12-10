@@ -103,4 +103,10 @@ ul{
     background-color: black;
     margin-left: 5px;
     max-height: 30px;
+    font-family: 'Edu TAS Beginner', sans-serif;
+    display: block;
+}
+
+.todo-list-item .cancel {
+    
 }
