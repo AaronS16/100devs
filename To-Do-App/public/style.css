@@ -76,6 +76,13 @@ ul{
     flex-direction: row;
 }
 
+.todo-list-item-content {
+    font-size: 8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 
 
 
