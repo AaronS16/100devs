@@ -19,7 +19,7 @@ function MakePizza(size, crust, cheese, topping) {
     }
 }
 
-let pizza = new MakePizza('large', 'stuffed', 'mozzarella', 'pepporroni')
+let pizzaFunction = new MakePizza('large', 'stuffed', 'mozzarella', 'pepporroni')
 
 
 
@@ -40,3 +40,5 @@ burnMouth(){
 frisbee(){
     console.log('YEeeeeetttt')
 }} 
+
+let pizzaClass = new Makepizza('large', 'pepporroni', 'stuffed', 'red')
