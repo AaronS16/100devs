@@ -20,7 +20,6 @@
 }
 
 img{
-  display: block;
   margin: 0 auto;
 }
 
@@ -33,13 +32,13 @@ body {
 
 h1 {
   background: white;
-  clear: both;
-  float: right;
 } 
 
 h3 {
   background: white;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
