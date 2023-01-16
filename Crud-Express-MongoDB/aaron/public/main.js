@@ -39,17 +39,3 @@ deleteButton.addEventListener('click', _ => {
     })
     .catch(console.error)
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
