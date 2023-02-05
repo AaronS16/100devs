@@ -16,11 +16,11 @@
 //Place the result of the conditional in the paragraph
 
 
-document.querySelector('h1').addEventListener('click', ageChecker)
+document.querySelector('.check').addEventListener('click', ageChecker)
 
 function ageChecker() {
 
-    let age = Number(document.querySelector('#danceDanceRevolution').value)
+    let age = Number(document.querySelector('#ageChecker').value)
 
     if(age < 16){
         document.querySelector('p').innerText = 'You can not drive'
