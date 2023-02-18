@@ -1,3 +1,12 @@
 .hidden{
 	display: none;
 }
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+

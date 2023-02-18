@@ -1,7 +1,34 @@
 /* Please make "This is an ad..." blue, but make sure it is specific enough that you could add other h3's somewhere eles in the document. */
 
+h1 {
+    font-size: 30px;
+    padding-left: 5px;
+    border: 3px solid red;
+}
+
 /* Please make "I like turtles." red */
+
+h2 {
+    font-size: 25px;
+    padding: 5px 0px 5px 0px;
+    border: 10px solid gold;
+    margin: 5px 0px 5px 0px;
+}
 
 /* Please select "Hello, world!" with the highest level of specificity possible*/
 
+span {
+    border: 3px solid black;
+    padding: 3px;
+    color: blue;
+}
+
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
+
+section {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid purple;
+}
