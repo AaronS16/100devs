@@ -49,7 +49,7 @@ class Elephant extends Animal{
 let simba = new Dog('Simba','Shepard')
 let machi = new Dog('The Machine','Pitbull')
 let salem = new Cat('Salem', 'American Shorthair')
-let dumbo = new Elephant('Dumbo', 'Brown')
+let dumbo = new Elephant('Dumbo', 'Grey')
 
 let farm = [simba,machi,salem, dumbo]
 
