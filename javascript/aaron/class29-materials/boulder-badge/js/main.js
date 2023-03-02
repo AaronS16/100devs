@@ -43,11 +43,8 @@ function changeToCelsius(temperature) {
 
 function canCharmanderBattle(currentTemp) {
     let converted = changeToCelsius(currentTemp)
-    if( converted > 0) {
-        return 'Charmander can fight today'
-    } else {
-        return 'Too cold for Charmander to fight, good luck'
-    }
+    return converted >= 0 ? 'Charmander can fight today' : 'Too cold for Charmander to fight, good luck'
+    
 }
 
 console.log(canCharmanderBattle(32))
