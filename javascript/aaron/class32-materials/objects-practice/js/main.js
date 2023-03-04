@@ -1,4 +1,4 @@
-// Come up with with a parent class
+U// Come up with with a parent class
 // Extend that parent class into two children
 // Use Encapsulation, Abstraction, Inheritance, and Polymorphism 
 // class Contractor{
@@ -105,3 +105,5 @@ let agencyList = [machi, simba]
 for(person of agencyList) {
     person.sayHello()
 }
+
+//test
