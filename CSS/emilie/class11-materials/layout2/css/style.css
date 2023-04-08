@@ -50,7 +50,11 @@ img{
 main > section h1, main > section img{
   margin-top: 200px;
 }  
-
+input {
+  width: 50%;
+  border: none;
+  background-color: #e3e5e6;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
