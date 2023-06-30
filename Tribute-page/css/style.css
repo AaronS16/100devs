@@ -5,3 +5,16 @@
     justify-content: center;
     margin: 0 auto;
 }
+body {
+    text-align: center;
+    background-color: rgb(238, 235, 235);
+}
+
+ul{
+    list-style-position: inside;
+    text-align: left;
+    
+}
+#img-div{
+    background-color: white;
+}
