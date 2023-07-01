@@ -26,6 +26,10 @@ body{
 #img-div{
     background-color: white;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
@@ -33,7 +37,9 @@ img{
 }
 
 #image{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #img-caption{
@@ -63,4 +69,11 @@ ul{
 li{
     margin: 20px;
     text-align: justify;
+}
+
+#quote{
+    font-style: italic;
+    margin: 20px;
+    text-align: justify;
+    max-width: 500px;
 }
