@@ -13,8 +13,7 @@ body {
 ul{
     list-style-position: inside;
     text-align: left;
-    /* display: flex; */
-    flex-wrap: wrap;
+    display: flex;
 }
 #img-div{
     background-color: white;
