@@ -13,12 +13,12 @@ body {
 ul{
     list-style-position: inside;
     text-align: left;
-    
+    /* display: flex; */
+    flex-wrap: wrap;
 }
 #img-div{
     background-color: white;
 }
-
 
 
 
