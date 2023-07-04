@@ -9,23 +9,23 @@
 <body>
    <h1 id="title"> freeCodeCamp Survey Form </h1> 
    <p id="description">Thank you for taking the time to help us improve the platform</p>
-   
-   <form id="survey-form"> 
+
+   <form action="" id="survey-form"> 
     <div> 
-         <label id="name-label"></label>
-         <input id="name" type="text" placeholder="Enter your name "> 
+         <label id="name-label">Name</label>
+         <input type="text" id="name" name="name"  placeholder="Enter your name " required > 
     </div>
     
 
     <div>
-        <label id="name-email"></label>
-        <input id="email" type="text" placeholder="Enter your Email "> 
+        <label id="name-email">Email</label>
+        <input id="email" type="email" name="email"  placeholder="Enter your Email " required> 
     </div>
 
 
     <div>
-        <label id="name-number"></label>
-        <input id="number" type="number" placeholder="Age"> 
+        <label id="name-number">Age (optional)</label>
+        <input id="number" type="number" name="age" placeholder="Age" min="1" max="120"> 
     </div>
 
     <div>
