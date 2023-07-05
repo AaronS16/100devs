@@ -32,6 +32,7 @@ body{
     min-width: 500px;
 }
 
+
 .form-div{
     display: flex;
     flex-direction: column;
