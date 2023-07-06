@@ -32,15 +32,13 @@ body{
     min-width: 500px;
 }
 
-
 .form-div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     align-items: center;
     margin: 0 auto 1.25rem auto;  
     padding: 0.25rem;
-
 }
 
 label{
@@ -72,7 +70,7 @@ input[type="radio"] input[type="checkbox"]{
 
 .form-radio, .div-checkbox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 5px;
 }
