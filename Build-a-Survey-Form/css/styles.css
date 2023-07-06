@@ -189,7 +189,7 @@ h1 {
   
   .submit-button {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 0.75rem;
     background: var(--color-green);
     color: inherit;
@@ -207,7 +207,8 @@ h1 {
 }
 
 input[type="submit"]{
-    width: 100%;
+    width: 90%;
+    height: 40px;
     color: white;
     background-color: green;
     border: 1px solid green;
@@ -215,7 +216,7 @@ input[type="submit"]{
 } 
 
 textarea{
-    width: 100%;
+    width: 90%;
     font-size: 16px;
     height: 100px;
 }
@@ -231,4 +232,16 @@ textarea{
     margin-top: 0;
     text-align: center;
     font-style: italic;
+}
+
+#email, #number, #name{
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#dropdown-role, #dropdown-label-feature {
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
 }
