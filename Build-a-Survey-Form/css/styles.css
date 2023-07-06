@@ -33,57 +33,15 @@ body{
 }
 
 .form-div{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     margin: 0 auto 1.25rem auto;  
     padding: 0.25rem;
 }
-/* 
-label{
-    margin-bottom: 10px;
-    width: 90%;
-    font-size: 18px;
-    padding-top: 8px; */
-}
-
-/* input,select {
-    width: 90%;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 16px;
-
-} */
 
 textarea{
     width: 90%;
     font-size: 16px;
-    height: 100px; */
+    height: 100px; 
 }
-/* 
-input[type="radio"] input[type="checkbox"]{
-    height: 20px;
-    margin-left: 20px;
-    width: 10%;
-}
-
-.form-radio, .div-checkbox {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px;
-}
-
-
-input[type="submit"]{
-    width: 90%;
-    color: white;
-    background-color: green;
-    border: 1px solid green;
-    margin-bottom: 50px;
-} */
-
 
 
 h1 {
@@ -118,22 +76,6 @@ h1 {
     line-height: inherit;
   }
   
-  /* button {
-    border: none;
-  } */
-  
-
-/*   
-  .header {
-    padding: 0 0.625rem;
-    margin-bottom: 1.875rem;
-  } */
-  
-  /* .description {
-    font-style: italic;
-    font-weight: 200;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  } */
   
   .text-center {
     text-align: center;
@@ -243,5 +185,5 @@ textarea{
 #dropdown-role, #dropdown-label-feature {
     width: 90%;
     height: 30px;
-    border-radius: 7px;
+    border-radius: 7px
 }
