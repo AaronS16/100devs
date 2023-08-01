@@ -49,6 +49,7 @@ li{
     min-width: 100px;
     width: 275px;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 #hero input[type="submit"]{
@@ -56,4 +57,7 @@ li{
     width: 100%;
     height: 30px;
     background-color: #f1c40f;
+    border: none;
+    font-weight: 900;
+    font-size: 1em;
 }
