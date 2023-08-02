@@ -86,3 +86,40 @@ li{
     color: darkorange;
     font-size: 50px;
 }
+
+#howItWorks{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(80%/3);
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.level{
+    background-color: #ddd;
+    color: black;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+ol > li{
+    margin-right: 25px;
+}
