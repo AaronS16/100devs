@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+#navbar{
+    background-color: red;
+    height: 100vh;
+    width: 25%;
+}
+
+#main-doc{
+    background-color: blue;
+    width: 75%;
+    height: 100vh;
+
+}
