@@ -1,0 +1,25 @@
+#nav-bar{
+    background-color: #be3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.2em;
+    padding: 2rem;
+}
