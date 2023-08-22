@@ -2,8 +2,32 @@ body{
     background-color: lightgoldenrodyellow;
 }
 
-nav{
+#nav-bar{
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    
+}
+
+#nav-list{
+    display: flex;
     flex-direction: row;
+
+}
+
+/* no more dots*/
+
+li{
+    list-style: none;
+} 
+/* to give each word space*/
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1rem 2rem;
 }
