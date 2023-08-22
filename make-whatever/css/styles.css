@@ -1,0 +1,9 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
