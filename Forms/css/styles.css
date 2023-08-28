@@ -1,0 +1,20 @@
+body{
+    background-color: lightcyan;
+}
+.form-input{
+    border:20px, solid, lightcoral;
+}
+
+input{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-style: oblique;
+    
+}
