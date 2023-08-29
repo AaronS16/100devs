@@ -13,12 +13,18 @@ input{
 
 label{
     display: flex;
-    justify-content: center;
+    justify-content: last baseline;
     font-weight: 500;
     font-style: oblique;
     
 }
 
-
+form{
+    padding-left: 50%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
 
 
