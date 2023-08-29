@@ -21,10 +21,13 @@ label{
 
 form{
     padding-left: 50%;
+    border: 2px solid lightgray;
 }
 h1{
     display: flex;
     justify-content: center;
+    padding: 0%;
+    margin: 0%;
 }
 
 
