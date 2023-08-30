@@ -1,6 +1,7 @@
 body{
     background-color: lightcyan;
     font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
 }
 .form-input{
     border:20px, solid, lightcoral;
@@ -24,11 +25,16 @@ form{
     padding-left: 50%;
     border: 2px solid lightgray;
 }
+#to-do{
+    display: flex;
+    
+}
 h2,h1{
     display: flex;
     justify-content: center;
     padding: 0%;
     margin: 0%;
+    font-size: 1.5rem;
 }
 
 h3{

@@ -49,7 +49,7 @@
         
         <div>
             <label for="number">Enter a Number </label>
-            <input type="number"placeholder="Enter a number" id="number">
+            <input type="number"placeholder="Enter a number" id="number" min="-100" max="100">
         </div>
         <div>
             <label for="time">Pick a time</label>
@@ -84,5 +84,16 @@
         </select>
     </div>
 
+    <form id="howMuch">
+        <label for="cheese">Amount of chesse:</label>
+        <input type="range" id="chesse" min="1" max="100" step="7" name="chesse_level">
+
+        <div id>
+            <label for="feeling">Write down how you are feeling today?</label>
+            <textarea id="feeling" rows="20" cols="40" placeholder="write your thoughts!"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+    
 </body>
 </html>
