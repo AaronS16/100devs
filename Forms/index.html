@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
 <body>
-    <h1>Forms Demo </h1>
+    <h1>Form Demo </h1>
 
     <form action="/tacos" class="form-input">
         <input> 
@@ -15,13 +15,26 @@
         <input> 
         <button>Submit</button>
     </form>
-    <h1>Next area</h1>
+    <h2>Next area</h2>
     <form action="/Mood">
         <label for="textInput">How are you? </label> 
-         <input type="checkbox"> Good
+         <input type="checkbox" name="good" id="agree" checked> Good
         <input type="checkbox"> Ok
         <input type="checkbox"> Fine
         <input type="checkbox"> Great
+    </form>
+ 
+    <form id="to-do">
+        <h2>Did you create your to-do list for the week?</h2>
+        <label for="yes">yes</label>
+        <input type="radio" name="size" id="yes" value="yes">
+        <label for="no">no</label>
+        <input type="radio" name="size" id="no" value="no">
+        <label for="why">why?</label>
+        <input type="radio" name="size" id="why" value="why">
+        <label for="maybe">Maybe</label> 
+        <input type="radio" name="size" id="maybe" value="maybe">
+        <button>Submit</button>
     </form>
 
     <form action="password"> 
@@ -48,18 +61,28 @@
         </div>
         
     </form>
+    <h3>Search Youtube</h3>
     <form action="https://www.youtube.com/results?">
         <input type= "text" name="search_query">
         <button>Search youtube </button>
     </form>
 
+    <h3>Search Google</h3>
     <form action="https://www.google.com/search?">
         <input type="text" name="q">
         <button>Search Google</button>
     </form> 
 
+    <div id="mealForm">
+        <label for="">Please Select an Entree</label>
+        <select name="meal" id="meal">
+            <option value="">--Pick a meal--</option>
+            <option value="fish">Fish</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="beef">Beef</option>
+            <option value="chicken">Chicken</option>
+        </select>
+    </div>
 
-    
-    
 </body>
 </html>

@@ -1,5 +1,6 @@
 body{
     background-color: lightcyan;
+    font-size: 1rem;
 }
 .form-input{
     border:20px, solid, lightcoral;
@@ -23,11 +24,25 @@ form{
     padding-left: 50%;
     border: 2px solid lightgray;
 }
-h1{
+h2,h1{
     display: flex;
     justify-content: center;
     padding: 0%;
     margin: 0%;
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
 
+#mealForm{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#mealForm label{
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
