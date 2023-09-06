@@ -1,0 +1,41 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://www.mensjournal.com/.image/t_share/MTk2MTM2OTgxNjc1Nzc5NTg5/fullbodyprofilecoupleyoungtwofriendsstrongsportysportswoman.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#racepick{
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+#info{
+    margin: 10px;
+}
+#selectAge{
+    padding: 5px;
+}
+
+#agegroup{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#age{
+    width: 70px;
+}
