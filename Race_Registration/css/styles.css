@@ -17,9 +17,12 @@ form{
     justify-content: center;
     text-align: center;
 }
-
+#raceselect{
+    margin: 2px;
+    margin-top: 15px;
+}
 #racepick{
-    padding: 5px;
+    padding: 2px;
     margin-bottom: 2px;
 }
 
@@ -38,4 +41,8 @@ form{
 
 #age{
     width: 70px;
+}
+
+#infoone{
+    padding: 10px;
 }
