@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="jobapp" class="application">
+       <h1>Personal information</h1>
+       <div>
+        <!--first name input-->
+        <label for="first" >First name </label>
+        <input type="text" name="first" id="firstname" required>
+        <!--last name input-->
+        <label for="last" >First name </label>
+        <input type="text" name="last" id="lastname" required>
+       </div>
+       <!--email input-->
+       <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+       </div>
+       <div>
+        <!--phone input-->
+        <label for="phone">Phone</label>
+        <input type="phone" name="phone" id="phone" required>
+       </div>
+       <div>
+        <!--Address input-->
+        <label for="address">Address</label> <label for="address" id="optional">(Optional)</label>
+        <input type="address" name="address" id="address">
+       </div>
+
+       <h1> Profile </h1>
+       <!--Resume upload-->
+       <form id="uploadbanner">
+            <label for="upload">Resume</label>
+            <input id="fileupload" name="myfile" type="file" required/>
+        </form>
+        <!--Summary-->
+        <div id="summarybox">
+            <label for="summary">Summary</label> <label for="summary" id="optional">(Optional)</label>
+            <textarea id="summary" rows="20" cols="40" ></textarea>
+        </div>
+        <!--cover upload-->
+        <h1> Details </h1>
+        <form id="coverupload">
+            <label for="cover">Cover Letter (File Upload) </label> <label for="cover" id="optional">(Optional)</label>
+            <input id="fileuploadcover" name="myfile" type="file" required/>
+        </form>
+        <!--drop down how did you hear about the role?-->
+        <div id="heardropdown">
+            <label for="">How did you hear about the role?</label>
+            <select name="role" id="role">
+                <option value="">Select an option...</option>
+                <option value="Linkedin">Linkedin</option>
+                <option value="Indeed">Indeed</option>
+                <option value="Referral">Referral</option>
+                <option value="Ladies-Get-Paid">Ladies Get Paid</option>
+                <option value="POCIT">POCIT</option>
+                <option value="Handshake">Handshake</option>
+                <option value="Social-Media">Social Media</option>
+                <option value="Other">Other</option>
+            </select>
+    <!--drop down Are you looking for part-time or full-time work? -->
+        </div id="dropdowntime">
+        <label for="time"> Are you looking for part-time or full-time work? </label>
+        <select name="time" id="time">
+           <option value="">Select an option...</option>
+           <option value="Part-Time">Part-Time</option>
+           <option value="Full-Time">Full-Time</option>
+           <option value="Either">Either</option>
+        </select>
+        </div>
+
+    </form>
+</body>
+</html>
