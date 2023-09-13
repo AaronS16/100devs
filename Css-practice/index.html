@@ -8,6 +8,7 @@
 </head>
 <body>
     <form action="jobapp" class="application">
+        <div id="picontact"> 
        <h1>Personal information</h1>
        <div>
         <!--first name input-->
@@ -33,6 +34,8 @@
         <input type="address" name="address" id="address">
        </div>
 
+        </div>
+        <div id="profileone">
        <h1> Profile </h1>
        <!--Resume upload-->
        <form id="uploadbanner">
@@ -45,6 +48,8 @@
             <textarea id="summary" rows="20" cols="40" ></textarea>
         </div>
         <!--cover upload-->
+        </div>
+    <div id="detail">
         <h1> Details </h1>
         <form id="coverupload">
             <label for="cover">Cover Letter (File Upload) </label> <label for="cover" id="optional">(Optional)</label>
@@ -75,7 +80,7 @@
         </select>
         </div>
         <!--Checkboxes what days are you avilable to work?-->
-        <div>
+        <div id="detail">
             <label for="days"> What days are you avilable to work? </label>
            <input type="checkbox" id="days"><label>Monday</label>
            <input type="checkbox" id="days"><label>Tuesday</label>
@@ -86,23 +91,23 @@
            <input type="checkbox" id="days"><label>Sunday</label>
         </div>
         <!--What are your starting compensation requirements?-->
-        <div>
+        <div id="detail">
             <label for="compensation">What are your starting compensation requirements?</label>
             <input type="text" id="compensation" name="compensation" required>
         </div>
         <!--When are you available to start a new job?-->
-        <div>
+        <div id="detail">
             <label for="start">When are you available to start a new job?</label>
             <input type="text" id="start" name="start" required>
         </div>
         <!--What motivated you to apply for this position at The Sill?-->
-        <div>
+        <div id="detail">
             <label for="motivated">What motivated you to apply for this position at The Sill?</label>
             <input type="text" id="motivated" name="motivated"required>
         </div>
         <!--button-->
         <button>Submit application</button>
-
+    </div>
     </form> 
 </body>
 </html>

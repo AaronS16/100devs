@@ -4,6 +4,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}  
+    
 
+#picontact{
+    background-color: #ECCFC3;
+  
+}
 
+#profileone{
+    background-color: #ECB8A5;
+   
+}
+
+#detail{
+    background-color: #E49AB0;
+    
+}
