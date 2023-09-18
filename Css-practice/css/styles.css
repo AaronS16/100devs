@@ -24,11 +24,8 @@ body{
     background-color: #E49AB0;
     margin-bottom: 20px;
 }
-#days{
+.days{
     display: flex;
     justify-content: end;
 }
-
-
-
 
