@@ -29,8 +29,7 @@ body{
     justify-content: end;
 }
 
-
-
-
-
-
+button:hover{
+    background-color: teal;
+    color: aliceblue;
+}
