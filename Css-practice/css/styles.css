@@ -32,4 +32,13 @@ body{
 button:hover{
     background-color: teal;
     color: aliceblue;
+
+}
+
+button:active{
+    background-color: #EF959C;
+}
+
+input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 3px red;
 }
