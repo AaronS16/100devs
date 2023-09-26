@@ -29,6 +29,12 @@ body{
     border: 5px #daa795 solid;
     box-sizing: border-box;
 }
+.emailform{
+    margin: 10px;
+}
+.addressinfo{
+    margin: 10px;
+}
 
 #detail{
     background-color: #E49AB0;
