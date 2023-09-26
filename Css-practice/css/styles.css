@@ -32,6 +32,7 @@ body{
 button:hover{
     background-color: teal;
     color: aliceblue;
+    font-size: 20px;
 
 }
 
