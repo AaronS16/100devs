@@ -15,3 +15,15 @@ nav{
     padding: 20px;
     
 }
+
+#pet-select{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    
+}
+
+#pet-select:hover{
+    background-color: #C2CAE8;
+    box-shadow: #C2CAE8;
+}
