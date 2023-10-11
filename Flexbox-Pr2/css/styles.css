@@ -43,4 +43,22 @@ div:nth-of-type(5) {
     height: 200px;
 }
 
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid #faedcd;
+    height: 500px;
+    display: flex;
+}
 
+
+main .sidebar{
+    background-color: #ccd5ae;
+    border: 2px solid #fefae0;
+    flex: 1;
+}
+
+main .maincontent{
+ background-color: #e9edc9;
+ flex: 1;
+}
