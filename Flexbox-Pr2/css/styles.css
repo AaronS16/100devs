@@ -55,10 +55,10 @@ main{
 main .sidebar{
     background-color: #ccd5ae;
     border: 2px solid #fefae0;
-    flex: 1 300px;
+    flex: 1 2 300px;
 }
 
 main .maincontent{
  background-color: #e9edc9;
- flex: 2 800px;
+ flex: 2 1 800px;
 }
