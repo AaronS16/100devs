@@ -1,7 +1,7 @@
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
- h1{
+ h1, h2{
     text-align: center;
  }
 
@@ -55,10 +55,10 @@ main{
 main .sidebar{
     background-color: #ccd5ae;
     border: 2px solid #fefae0;
-    flex: 1;
+    flex: 1 300px;
 }
 
 main .maincontent{
  background-color: #e9edc9;
- flex: 1;
+ flex: 2 800px;
 }
